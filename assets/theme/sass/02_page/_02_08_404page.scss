@@ -1,0 +1,54 @@
+/*404 page*/
+.vk-404page{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background-size: cover;
+          background: url("../images/02_08_404page/background.jpg") no-repeat !important;
+          background-size: cover;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+  .vk-404page-content{
+    padding: 100px 0;
+    @media screen and (max-width: 991px){
+      padding: 60px 0;
+    }
+    h2{
+      font-family: "Playfair Display", serif;
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      color: #333333;
+      @media screen and (max-width: 767px) {
+        font-size: 36px;
+      }
+    }
+    p{
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.88;
+      text-align: center;
+      color: #666666;
+      margin-top: 29px;
+      margin-bottom: 80px;
+      a{
+        color: #62b043;
+        text-decoration: none;
+      }
+    }
+    img{
+      margin: 0 auto;
+    }
+  }
+}
+/*End 404 page*/

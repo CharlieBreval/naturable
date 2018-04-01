@@ -1,0 +1,121 @@
+/*about welcomto*/
+.vk-about-welcometo{
+  padding: 100px 0;
+  .vk-about-welcometo-left{
+    img{
+      width: 100%;
+    }
+  }
+}
+.vk-about-right-header{
+  padding: 59px 0;
+
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    letter-spacing: 2.8px;
+    text-align: left;
+    color: #62b043;
+  }
+  h2{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+  }
+  .vk-about-border{
+    width: 40px;
+    height: 3px;
+    background-color: #62b043;
+    margin-top: 30px;
+  }
+}
+.vk-about-right-content{
+  p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: left;
+    color: #666666;
+  }
+  .vk-about-right-content-border{
+    width: 120px;
+    height: 1px;
+    background-color: #666666;
+    margin-top: 37px;
+    margin-bottom: 39px;
+  }
+}
+.vk-about-right-author{
+  p{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    color: #333333;
+    span{
+      a{
+        color: #62b043;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.vk-about-welcometo-share{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  p{
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    padding: 0 10px;
+    min-width: 150px;
+    background: #FFF;
+    a{
+      i{
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #999;
+        border: 1px solid #999;
+        border-radius: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        transition: all .5s ease 0s;
+        -webkit-transition: all .5s ease 0s;
+        -moz-transition: all .5s ease 0s;
+        -ms-transition: all .5s ease 0s;
+        -o-transition: all .5s ease 0s;
+        &:hover{
+          color: #62b043;
+          border: 1px solid #62b043;
+
+        }
+      }
+
+    }
+  }
+  hr{
+    height: 4px;
+    border-top: 1px solid #CCC;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    content: "";
+    z-index: 1;
+    margin-top: 20px;
+  }
+  .vk-about-welcometo-share-border-left{
+
+  }
+}
+/*end about welcomto*/

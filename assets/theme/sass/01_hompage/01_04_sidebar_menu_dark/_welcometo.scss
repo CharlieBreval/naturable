@@ -1,0 +1,33 @@
+/*Home sideba menu dark welcometo*/
+.vk-sparta-menu-left-dark{
+  .vk-sparta-dark-about{
+    .vk-sparta-dark-about-right-bg{
+      background: url(../images/01_02_dark_background/welcome/background1.jpg);
+      background-size: cover;
+    }
+    .vk-sparta-dark-about-right{
+      padding-top: 72px !important;
+      padding-bottom: 63px !important;
+      @media screen and (max-width: 1739px) and (min-width: 1641px) {
+        padding-right: 152px;
+      }
+      @media screen and (max-width: 1629px) and (min-width: 1529px) {
+        padding-right: 97px;
+      }
+      @media screen and (max-width: 1528px) and (min-width: 1445px) {
+        padding-right: 100px;
+      }
+      @media screen and (max-width: 1444px) and (min-width: 992px){
+        padding-right: 70px;
+      }
+      .vk-dark-about-right-header{
+        h2{
+          @media screen and (max-width: 1529px) and (min-width: 991px) {
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+}
+/*EndHome sideba menu dark welcometo*/

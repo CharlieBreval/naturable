@@ -1,0 +1,14 @@
+/*Home dark background booking hotel dark background */
+.vk-booking-hotel-dark-background{
+  background: black;
+  .booking-hotel-all{
+   ul{
+     li{
+       @media screen and (max-width: 1199px) and (min-width: 992px) {
+         margin-right: 9px !important;
+       }
+     }
+   }
+  }
+}
+/*End Home dark background booking hotel dark background */

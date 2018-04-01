@@ -1,0 +1,19 @@
+{{ form_start(form) }}
+    {{ form_row(form.category)}}
+    {{ form_row(form.title)}}
+    {{ form_row(form.subtitle)}}
+    {{ form_row(form.image)}}
+
+    <div class="jumbotron row">
+    <ul class="contents" data-prototype="{{ form_widget(form.contents.vars.prototype)|e('html_attr') }}">
+        {% for content in form.contents %}
+            <li class="content-item">
+                {{ form_row(content) }}
+            </li>
+        {% endfor %}
+    </ul>
+    </div>
+
+    <button class="btn btn-success">{{ button_label|default('Save') }} therapy</button>
+
+{{ form_end(form) }}

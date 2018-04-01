@@ -1,0 +1,109 @@
+{% extends 'base.html.twig' %}
+{% block body_class %}contact-index{% endblock %}
+{% block body %}
+    <div class="vk-contact-us">
+
+        <!--BENGIN CONTENT HEADER-->
+        <section class="site-content-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="vk-contact-us">
+                        <div class="col-md-7 vk-clear-padding">
+                            <div class="vk-contact-us-map">
+                                <div id="map"></div>
+                                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=20c%20Rue%20de%20la%20Saulzini%C3%A8re%2C%20Nantes%2C%20France&key=AIzaSyBwyPya0nBQUkl5DXWkwFNE3s1yTTH0HHE" allowfullscreen></iframe>                            </div>
+                        </div>
+                        <div class="col-md-5 vk-clear-padding">
+                            <div class="vk-contact-us-info">
+                                <div class="vk-contact-us-info-header">
+                                    <h3>Informations pratiques</h3>
+                                    <h2>Contactez-moi</h2>
+                                    <div class="clearfix"></div>
+                                    <div class="vk-contact-border"></div>
+                                </div>
+                                <div class="vk-contact-us-info-text">
+                                    <ul>
+                                        <li>
+                                            <div class="vk-contact-us-info-text-icon">
+                                                <span class="ti-location-pin"></span>
+                                            </div>
+                                            <div class="vk-contact-us-info-text-right">
+                                                <h4>CONSULTATION</h4>
+                                                <p>12 rue des Olivettes, 44 000 Nantes</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="vk-contact-us-info-text-icon">
+                                                <span class="ti-email"></span>
+                                            </div>
+                                            <div class="vk-contact-us-info-text-right">
+                                                <h4>Email</h4>
+                                                <p>contact@naturable.com</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="vk-contact-us-info-text-icon">
+                                                <span class="ti-mobile"></span>
+                                            </div>
+                                            <div class="vk-contact-us-info-text-right">
+                                                <h4>TEL</h4>
+                                                <p>06 34 33 42 56</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="vk-contact-form">
+                        <div class="container">
+                            <div class="vk-contact-form-info-header">
+                                <h2>Une question à me poser ?</h2>
+                                <div class="clearfix"></div>
+                                <div class="vk-contact-border"></div>
+                            </div>
+                            <div class="vk-contact-form-info-body">
+                                <div class="row">
+                                    <form action="action.php">
+                                        <div class="form-group">
+                                            <div class="col-md-4">
+                                                <input type="text" id="yourname" placeholder="Noms" class="form-control" >
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-4">
+                                                <input type="email" id="youremail" placeholder="Email" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-4">
+                                                <input type="text" id="subject" placeholder="Sujet" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="vk-btn-send">
+                                                <button type="submit" class="btn vk-btn-primary btn-block">ENVOYER <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END CONTENT ABOUT-->
+
+    </div>
+
+{% endblock %}

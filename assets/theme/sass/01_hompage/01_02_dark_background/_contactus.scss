@@ -1,0 +1,115 @@
+/* Home dark background contact us*/
+.vk-sparta-dark-contact-us{
+  background: url("../images/01_02_dark_background/contact-us/background41.jpg") no-repeat;
+  background-size: cover;
+  .vk-sparta-dark-contact-us-map{
+    iframe{
+      width: 100%;
+      min-height: 585px;
+    }
+    .map {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+  }
+  .vk-sparta-dark-contact-us-info{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 75px;
+    padding-right: 192px;
+    @media screen and (max-width: 767px){
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      padding-top: 54px;
+      padding-bottom: 54px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1469px) {
+      padding-top: 54px;
+      padding-bottom: 54px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .vk-sparta-dark-contact-us-info-header{
+      h3{
+        font-family: "Cinzel Decorative";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        letter-spacing: 2.8px;
+        text-align: left;
+        color: #62b043;
+        margin: 0;
+      }
+      h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 22px;
+        margin-bottom: 38px;
+      }
+      .vk-dark-contact-border{
+        width: 40px;
+        height: 3px;
+        background-color: #62b043;
+        margin-bottom: 60px;
+      }
+    }
+    .vk-sparta-dark-contact-us-info-text{
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
+          list-style-type: none;
+          position: relative;
+          margin-bottom: 40px;
+          .vk-sparta-dark-contact-us-info-text-icon{
+            position: absolute;
+            left: 0;
+            top: 10px;
+            span{
+              font-family: themify;
+              font-size: 48px;
+              line-height: 0.63;
+              text-align: left;
+              color: #62b043;
+            }
+          }
+          .vk-sparta-dark-contact-us-info-text-right{
+            padding-left: 60px;
+            h4{
+              font-family: 'Raleway', sans-serif;
+              font-size: 14px;
+              font-weight: 800;
+              line-height: 1.86;
+              text-align: left;
+              color: #aeaeae;
+              margin: 0;
+            }
+            p{
+              font-family: 'Raleway', sans-serif;
+              font-size: 14px;
+              line-height: 1.86;
+              text-align: left;
+              font-weight: 500;
+              color: #ffffff;
+              margin: 0;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+/* End Home dark background contact us */

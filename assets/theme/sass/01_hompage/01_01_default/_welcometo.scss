@@ -1,0 +1,141 @@
+/*Home default element Welcometo*/
+.vk-sparta-about{
+  padding-top: 99px;
+}
+.vk-sparta-head-title{
+  h3{
+    font-family:'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.14;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #62b043;
+    @media screen and (max-width: 767px){
+      font-size: 14px;
+    }
+  }
+  h2{
+    font-family:'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333 !important;
+
+  }
+}
+.vk-sparta-about-border{
+  width: 40px;
+  height: 3px;
+  background-color: #62b043;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.vk-sparta-about-text{
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: center;
+    color: #7b7b7b;
+  }
+}
+.vk-sparta-about-author{
+  margin-top: 37px;
+  p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    text-align: center;
+    color: #333333;
+    span{
+      color: #62b043;
+    }
+  }
+}
+.vk-sparta-image{
+  .vk-sparta-image-item{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .vk-sparta-item-img{
+      width: 100%;
+      img{
+        width: 100%;
+        transition: all 0.5s;
+      }
+    }
+    .vk-sparta-item-img{
+      a:before, a:after{
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 20px;
+        bottom: 20px;
+        content: '';
+        opacity: 0;
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.4s;
+        transition: opacity 0.3s, -webkit-transform 0.4s;
+        -o-transition: opacity 0.3s, transform 0.4s;
+        transition: opacity 0.3s, transform 0.4s;
+        transition: opacity 0.3s, transform 0.4s, -webkit-transform 0.4s;
+        z-index: 5;
+      }
+      a:before{
+        border-top: 5px solid #fff;
+        border-bottom: 5px solid #fff;
+        -webkit-transform: scale(0,1);
+        transform: scale(0,1);
+      }
+      a:after{
+        border-right: 5px solid #fff;
+        border-left: 5px solid #fff;
+        -webkit-transform: scale(1,0);
+        transform: scale(1,0);
+      }
+      &:hover{
+        a:after{
+          opacity: 1;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+        a:before{
+          opacity: 1;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    }
+
+    .vk-iamge-item-caption{
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      h2{
+        font-family:'Playfair Display', serif;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    &:hover{
+      .vk-sparta-item-img{
+        img{
+          transform: scale(1.1);
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+/*End Home default element Welcometo*/

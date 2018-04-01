@@ -1,0 +1,110 @@
+/*Home dark background welcometo*/
+.vk-sparta-dark-about-right-bg{
+  position: relative;
+  background: url("../images/01_02_dark_background/welcome/background1.jpg");
+  background-size: cover;
+  height: 778px;
+  overflow: hidden;
+}
+.vk-sparta-dark-about{
+  .vk-sparta-dark-about-left{
+    background: url("../images/01_02_dark_background/welcome/img1.jpg") no-repeat !important;
+    background-position: center center;
+    //background-attachment: fixed;
+    background-size: cover;
+    height: 778px;
+    width: 100%;
+  }
+  .vk-sparta-dark-about-right{
+    padding-top: 77px;
+    padding-bottom: 79px;
+    padding-left: 78px;
+    padding-right: 192px;
+    @media screen and (max-width: 1027px) and (min-width: 992px) {
+      padding-top: 35px;
+      padding-bottom: 40px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    @media screen and (max-width: 1085px) and (min-width: 1028px) {
+      padding: 50px;
+    }
+    @media screen and (max-width: 1370px) {
+      padding-right: 50px;
+    }
+    @media screen and (max-width: 991px) {
+      padding: 60px 20px;
+    }
+    .vk-dark-about-right-header{
+      h3{
+        font-family: "Cinzel Decorative";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        letter-spacing: 2.8px;
+        text-align: left;
+        color: #62b043;
+        margin: 0px;
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+      h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: left;
+        color: #ffffff;
+        margin: 0px;
+        padding-top: 20px;
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+
+      }
+      .vk-dark-about-border{
+        width: 40px;
+        height: 3px;
+        margin-top: 30px;
+        background-color: #62b043;
+        @media screen and (max-width: 767px) {
+          margin: 30px auto;
+        }
+      }
+    }
+    .vk-dark-about-right-content{
+      margin-top: 59px;
+      margin-bottom: 57px;
+      p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: justify;
+        color: #aeaeae;
+      }
+    }
+    .vk-dark-about-right-author{
+      p{
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        color: #ffffff;
+        span{
+          color: #62b043;
+        }
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .vk-sparta-dark-about-right-down{
+    position: absolute;
+    bottom: 0;
+    @media screen and (max-width: 1400px) {
+      display: none;
+    }
+  }
+}
+/* End Home dark background welcometo*/

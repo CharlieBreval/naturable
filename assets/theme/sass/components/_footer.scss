@@ -1,0 +1,189 @@
+/*Footer*/
+.site-footer{
+  background: #333333;
+  padding-top: 80px;
+  .footer-main-content-element{
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  }
+  .vk-widget-footer-1{
+    h3{
+      img{
+        width: 131px;
+        height: 46px;
+      }
+    }
+    .vk-widget-content-info{
+      margin-top: 42px;
+      margin-bottom: 30px;
+      p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.86;
+        text-align: left;
+        color: #aeaeae;
+        span{
+          margin-right: 12px;
+          font-family: themify;
+          font-size: 14px;
+          line-height: 1.86;
+          text-align: left;
+          color: #62b043;
+        }
+      }
+    }
+
+    .vk-widget-content-share{
+      p{
+        a{
+          i{
+            font-size: 16px;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            color: #999;
+            border: 1px solid #999;
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            transition: all .5s ease 0s;
+            -webkit-transition: all .5s ease 0s;
+            -moz-transition: all .5s ease 0s;
+            -ms-transition: all .5s ease 0s;
+            -o-transition: all .5s ease 0s;
+            &:hover{
+              color: #62b043;
+              border: 1px solid #62b043;
+
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .widget{
+    h3{
+      font-family: "Cinzel Decorative";
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.44;
+      text-align: left;
+      color: #62b043;
+      margin-bottom: 39px;
+      margin-top:  0;
+    }
+    ul.vk-widget-content-2{
+      padding: 0;
+      li{
+        list-style-type: none;
+        a{
+          font-family: 'Raleway', sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.57;
+          text-align: left;
+          color: #aeaeae;
+          text-decoration: none;
+          &:hover{
+            color: #62b043;
+          }
+          i{
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-widget-footer-4{
+    input{
+      height: 50px;
+    }
+    .form-control{
+      border-radius: 0px;
+      border-right: none;
+      &:focus{
+        border-color: transparent;
+        box-shadow: none;
+      }
+    }
+    .input-group-addon{
+      border-radius: 0px;
+      background: #FFFFFF;
+      border-left: none;
+      span{
+        i{
+          transition: all 0.5s;
+        }
+      }
+      &:hover{
+        cursor: pointer;
+        i{
+          color: #62b043;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .vk-widget-trip{
+      margin-top: 50px;
+    }
+  }
+
+  .copyright-area{
+    .copyright-content{
+      border-top: 1px solid #444444;
+      padding: 30px 0px;
+      margin-top: 80px;
+      .copyright-text{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #7b7b7b;
+        span{
+          color: #62b043;
+          a{
+            color: #62b043;
+          }
+        }
+      }
+      .copyright-menu{
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          a{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            line-height: 1.86;
+            text-align: right;
+            color: #7b7b7b;
+            text-decoration: none;
+            border-left: 1px solid #7b7b7b;
+            padding: 0px 11px;
+            transition:  all 0.5s;
+            &:hover{
+              color: #62b043;
+              transition:  all 0.5s;
+            }
+          }
+          &:first-child{
+            a{
+              border-left: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*End Footer*/

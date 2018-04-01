@@ -1,0 +1,92 @@
+/*Blog list*/
+.vk-blog-list{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../../image11.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+  .vk-select-room-pagination{
+    margin-top: 60px;
+  }
+}
+.vk-blog-list-body{
+background: #f9f9f9;
+  padding: 100px 0;
+}
+
+.vk-blog-list-body-left{
+  .vk-blog-list-left-item{
+    background: #ffffff;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    &:hover{
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      transition: all 0.5s;
+    }
+    .vk-blog-list-left-item-img{
+      img{
+        width: 100%;
+        height:auto;
+      }
+    }
+    .vk-events-lists-item-right{
+      padding: 20px 0;
+      padding-right: 20px;
+      @media screen and (max-width: 991px) {
+        padding: 20px;
+      }
+      .vk-event-item-time{
+        width: 80px;
+        height: 100px;
+      }
+      .vk-events-item-text{
+        p{
+          margin-bottom: 0px;
+        }
+      }
+      .vk-event-item-info{
+        padding-left: 100px;
+        h2{
+          padding-bottom: 10px;
+          a{
+            font-size: 24px;
+          }
+        }
+        ul{
+          li{
+            display: inline-block;
+            margin-right: 20px;
+            a{
+              font-family: "Raleway", sans-serif;
+              font-size: 14px;
+              line-height: 2.14;
+              text-align: left;
+              color: #7b7b7b;
+              font-weight: normal;
+              text-decoration: none;
+              transition: all 0.5s;
+              &:hover{
+                color: #62b043;
+                transition: all 0.5s;
+              }
+              i{
+                color: #62b043;
+                padding-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*blog list*/

@@ -1,0 +1,362 @@
+.vk-newlist-banner-test-search button{
+  transition: all 0.5s;
+}
+.vk-newlist-banner-test-search button:hover{
+  background: #62b043;
+  color: #FFF;
+}
+
+.vk-newlist-banner-test-search{
+  width: 100%;
+  height: 44px;
+  background: #fff;
+  input{
+    width: 70%;
+    height: 30px;
+    margin-top: 6px;
+    border: none;
+    outline: none;
+    color: #777;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-indent: 15px;
+  }
+  button{
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height: 44px;
+    color: #aeaeae;
+    font-size: 14px;
+    float: right;
+  }
+}
+
+
+.vk-shop-your-card{
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 30px;
+  p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+    text-align: left;
+    color: #7b7b7b;
+    margin-bottom: 0px;
+  }
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .vk-shop-your-card-item{
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    .vk-shop-item-img{
+      float: left;
+      img{
+        width: 60px;
+        height: 60px;
+        border: solid 1px #f0f0f0;
+        overflow: hidden;
+      }
+    }
+    .vk-shop-item-info{
+      padding-left: 80px;
+      h4{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: left;
+        color: #333333;
+        margin: 0px;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 0px;
+      }
+      strong{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.57;
+        float: right;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+  }
+  .vk-total{
+    p{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.57;
+      text-align: left;
+      color: #333333;
+      span{
+        float: right;
+      }
+    }
+  }
+  .vk-your-card-btn{
+    margin-top: 30px;
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        display: inline-block;
+        border: 1px solid #62b043;
+        background: #62b043;
+        padding: 2px 15px;
+        transition: all 0.5s;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          display:  block;
+          margin-bottom: 10px;
+        }
+        &:hover{
+          background: #ffffff;
+          transition: all 0.5s;
+          a{
+            color: #62b043;
+          }
+        }
+        a{
+          display:  block;
+          font-family: "Raleway", sans-serif;
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 2.77;
+          text-align: center;
+          color: #fff;
+        }
+        &.shop-view{
+          background: #fff;
+          a{
+            color: #62b043;
+          }
+          &:hover{
+            background: #62b043;
+            a{
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.vk-newlist-title{
+  background: #fff;
+  padding: 30px;
+  margin-top: 30px;
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      list-style-type: none;
+      &:hover{
+        a{
+          color: #62b043;
+        }
+      }
+      a{
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        line-height: 2.57;
+        text-align: left;
+        color: #333333;
+        i{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.vk-newlist-title2{
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 30px;
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+
+.vk-newlist-title3{
+  background: #ffffff;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 30px;
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.5s;
+  }
+  h4{
+    a{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 1.57;
+      text-align: left;
+      color: #333333;
+      &:hover{
+        color: #62b043;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+#slider-range{
+  width: 100%;
+  height: 2px;
+  background: #f0f0f0;
+  border-radius: 0px;
+  border: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+  width: 6px !important;
+  height: 12px !important;
+  background: #62b043 !important;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+}
+.ui-slider-horizontal .ui-slider-range{
+  background: #62b043;
+  margin-left: -5px;
+}
+.label-filter-price{
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.57;
+  text-align: left;
+  color: #333333;
+  font-style: normal;
+  position: absolute;
+  margin-top: 31px;
+  input{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.57;
+    text-align: left;
+    font-style: normal !important;
+    color: #333 !important;
+  }
+}
+
+.btn-filter-prince{
+  width: 80px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background: #62b043;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #FFF;
+  float: right;
+  position: relative;
+  margin-top: 25px;
+  transition:all 0.5s;
+  border:1px solid #62b043;
+  &:hover{
+    border:1px solid #62b043;
+    background: none;
+    color: #62b043;
+    transition:all 0.5s;
+  }
+}
+
+.vk-book-details{
+  padding-bottom: 13px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #f0f0f0;
+  &:last-child{
+    border-bottom: none;
+  }
+  .vk-best-seller-img{
+    float: left;
+    border: 1px solid #f0f0f0;
+    img{
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+    }
+  }
+  .vk-best-seller-info{
+    padding-left: 80px;
+    h4{
+      margin: 0px;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        display: inline-block;
+        i{
+          color: #62b043;
+          font-size: 12px;
+        }
+      }
+    }
+    p{
+      font-family: "Playfair Display", serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.63;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}Therapy{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <h1>Therapy</h1>
+        </div>
+
+    <div class="row">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th>Id</th>
+                    <td>{{ therapy.id }}</td>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <td>{{ therapy.category }}</td>
+                </tr>
+                <tr>
+                    <th>Title</th>
+                    <td>{{ therapy.title }}</td>
+                </tr>
+                <tr>
+                    <th>Subtitle</th>
+                    <td>{{ therapy.subtitle }}</td>
+                </tr>
+                <tr>
+                    <th>CreatedAt</th>
+                    <td>{{ therapy.createdAt ? therapy.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <td>{{ therapy.image }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+    <a href="{{ path('admin_therapy_index') }}">back to list</a>
+    </div>
+
+    <div class="row">
+    <a href="{{ path('admin_therapy_edit', {'id': therapy.id}) }}">edit</a>
+    </div>
+
+    {{ include('admin/therapy/_delete_form.html.twig') }}
+    </div>
+{% endblock %}

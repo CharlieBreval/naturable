@@ -1,0 +1,31 @@
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+
+preventive_therapy:
+    path: /therapies-preventives
+    controller: App\Controller\TherapyController::preventive
+
+complementary_therapy:
+    path: /therapies-complementaires
+    controller: App\Controller\TherapyController::complementary
+
+therapy_show:
+    path: /therapie/{slug}
+    controller: App\Controller\TherapyController::show
+
+news_show:
+    path: /actualites/{slug}
+    controller: App\Controller\NewsController::show
+
+news_index:
+    path: /actualites
+    controller: App\Controller\NewsController::index
+
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
+
+about:
+    path: /a-propos
+    controller: App\Controller\AboutController::index

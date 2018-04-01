@@ -1,0 +1,50 @@
+/*about banner*/
+.vk-about-banner{
+  position: relative;
+  .vk-about-banner-destop{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 393px;
+    background-size: cover;
+    background: url("../../theme/images/02_01_about/background.jpg");
+    width: 100%;
+    background-position: center center;
+    @media screen and (max-width: 991px) {
+      height: 260px;
+    }
+    .vk-about-banner-caption{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      h2{
+        font-family: "Playfair Display", serif;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        @media screen and (max-width: 991px){
+          font-size: 48px;
+        }
+      }
+      h3{
+        text-align: center;
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          color: #ffffff;
+          text-decoration: none;
+        }
+        span{
+          color: #ffffff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+/*end about banner*/

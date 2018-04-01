@@ -1,0 +1,43 @@
+.vk-event-grid{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/06_01_events_list/background.jpg") no-repeat !important;
+          background-size: cover;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-events-grid-content{
+  background: #f9f9f9;
+  padding-top:100px;
+  padding-bottom: 40px;
+  .vk-events-lists-item-right{
+    padding-left: 30px;
+    @media screen and (max-width: 991px) {
+      padding: 20px;
+    }
+  }
+  .vk-events-iem-img{
+    img{
+      transition: all 0.5s;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    &:hover{
+      img{
+        transition: all 0.5s;
+        opacity: 0.7;
+      }
+    }
+  }
+}

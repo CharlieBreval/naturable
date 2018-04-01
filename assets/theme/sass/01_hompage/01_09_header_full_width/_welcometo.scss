@@ -1,0 +1,52 @@
+/*Home header full width welcometo*/
+.vk-sparta-header-full-width-welcometo{
+  //padding-top: 100px;
+  h2{
+    color:#333;
+  }
+  h3{
+    margin-top: 0px;
+  }
+  .vk-sparta-image{
+    //background:url("../images/01_09_header-full-width/background.jpg");
+    background-size: cover;
+    .vk-sparta-count-item{
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+
+        }
+      }
+      .vk-sparta-count-item-img{
+        width: 100%;
+        img{
+          margin: auto;
+        }
+      }
+      .vk-sparta-count-item-number{
+        margin-top: 50px;
+        margin-bottom: 42px;
+        text-align: center;
+        span{
+          font-family: "Raleway", sans-serif;
+          font-size: 80px;
+          font-weight: bold;
+          line-height: 0.33;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.44;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+}
+/*Home header full width welcomto*/

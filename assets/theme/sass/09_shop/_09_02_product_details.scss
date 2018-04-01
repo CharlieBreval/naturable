@@ -1,0 +1,423 @@
+.vk-product-details{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../images/09_01_shop/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+.vk-product-details-body{
+  background: #f9f9f9;
+  padding: 100px 0;
+  //.vk-shop2{
+  //  padding-bottom: 80px;
+  .img-small-db{
+    margin-top: 30px;
+  }
+    .vk-shop2-slide1-img{
+      width: 100%;
+      height: 440px;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.5s;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+        transition: all 0.5s;
+        display: none;
+        &:hover{
+          transform: scale(1.2,1.2);
+        }
+      }
+      img:first-child{
+        display: block;
+      }
+    }
+
+    .vk-shop2-slide1-small-img{
+      width: 117px;
+      height: 117px;
+      margin-bottom: 40px;
+      cursor: pointer;
+      transition: all 0.5s;
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        width: 90px;
+      }
+      @media screen and (max-width: 991px){
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        height: auto;
+      }
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+
+    .vk-shop1-md9{
+      margin-top: 80px;
+    }
+
+    .vk-shop2-slide1-details{
+      width: 100%;
+      h1{
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+        color: #333333;
+        font-style: normal;
+        margin: 0px;
+      }
+      .vk-shop2-slide1-details-review{
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #777;
+        margin-left: 10px;
+      }
+      ul{
+        margin-top: 20px;
+        margin-bottom: 29px;
+        padding: 0px;
+        li{
+          display: inline-block;
+          width: auto;
+          color: #62b043;
+        }
+      }
+      .vk-shop2-slide1-details-prince{
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+        color: #333333;
+        font-style: normal;
+        margin-top: 6px;
+      }
+      p{
+        font-family:"Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #7b7b7b;
+        margin-top: 40px;
+        margin-bottom: 41px;
+      }
+      .vk-shop2-slide1-details-count{
+        width: 160px;
+        height: 50px;
+        background: #fff;
+        border-radius: 3px;
+        line-height: 42px;
+        text-align: center;
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #7b7b7b;
+        float: left;
+        margin-right: 10px;
+        margin-top: 8px;
+        @media screen and (max-width: 991px) {
+          width: 100%;
+        }
+        .vk-shop2-slide1-details-minus{
+          float: left;
+          margin-left: 16px;
+          cursor: pointer;
+          margin-top: 5px;
+        }
+        .vk-shop2-slide1-details-number{
+          font-size: 18px;
+          color: #777;
+        }
+        .vk-shop2-slide1-details-plus{
+          float: right;
+          margin-right: 16px;
+          cursor: pointer;
+          margin-top: 5px;
+        }
+      }
+      .vk-shop2-slide1-details-add-cart{
+        width: 140px;
+        height: 50px;
+        text-align: center;
+        line-height: 44px;
+        color: #FFF;
+        background: #62b043;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 8px;
+        transition:all 0.5s;
+        border:1px solid #62b043;
+        @media screen and (max-width: 991px){
+          width: 100%;
+        }
+        &:hover{
+          background: #fff;
+          border:1px solid #62b043;
+          color:#62b043;
+        }
+      }
+      .vk-shop2-slide1-details-tags{
+        margin-top: 21px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 14px;
+        color: #777;
+        text-transform: capitalize;
+        a{
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          color: #777;
+          text-transform: capitalize;
+        }
+      }
+      .vk-shop2-details-tags-share{
+        ul{
+          li{
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 2.14;
+            text-align: left;
+            color: #333333;
+            margin-right: 10px;
+            a{
+              font-family: FontAwesome;
+              font-size: 14px;
+              line-height: 2.14;
+              text-align: left;
+              color: #333333;
+              &:hover{
+                color: #62b043;
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+
+    .vk-shop2-slide1-tabs{
+      margin-top: 40px;
+      .nav-tabs>li{
+        margin-bottom: 0px;
+      }
+      .tab-content{
+        padding-top: 30px;
+      }
+      ul{
+        li{
+          width: auto;
+          a{
+            text-transform: capitalize;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 14px;
+            outline: none;
+            color: #aeaeae;
+            border: none;
+            &:hover{
+              border: none;
+              background: none;
+            }
+            &:focus{
+              background-color: transparent;
+              border: none;
+              color: #333333;
+            }
+            span{
+              padding-bottom: 21px;
+            }
+          }
+          &.active{
+            a{
+              background-color: transparent;
+              border: none;
+              color: #333333;
+            }
+          }
+        }
+      }
+
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #7b7b7b;
+      }
+
+      .vk-tabs-default{
+        background: #fff;
+        padding: 30px;
+      }
+    }
+
+
+    .related-h2{
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      color: #333333;
+      font-style: normal;
+      text-transform: capitalize;
+      margin-top: 93px;
+    }
+    .border-h2{
+      width: 40px;
+      height: 3px;
+      background-color: #62b043;
+      margin: 0 auto;
+      margin-top: 38px;
+      margin-bottom: 60px;
+    }
+  //}
+
+  .vk-shop1-product{
+    background: #fff;
+    padding: 30px 0;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 20px;
+    }
+    .vk-shop1-product-img{
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        transition:  all 0.5s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.1);
+          transition:  all 0.5s;
+        }
+      }
+    }
+    .caption{
+      h3{
+        text-align: center;
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          line-height: 1.86;
+          color: #333333;
+          transition: all 0.5s;
+        }
+        &:hover{
+          a{
+            color: #62b043;
+            transition: all 0.5s;
+          }
+        }
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          i{
+            font-family: FontAwesome;
+            font-size: 12px;
+            line-height: 2.17;
+            color: #62b043;
+          }
+
+        }
+      }
+      p{
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.64;
+        text-align: center;
+        color: #333333;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1199px){
+    .vk-shop2{
+      .vk-shop2-slide1-small-img {
+        width: 80px !important;
+        height: 80px;
+        margin-bottom: 32px !important;
+      }
+      .vk-shop2-slide1-img {
+        width: 241px;
+        height: 329px;
+        //margin-left: -24px !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: 991px){
+    .vk-shop2{
+      padding-bottom: 0px;
+      .vk-shop2-slide1-small-img {
+        width: 100% !important;
+        height: auto;
+        margin-right: 100px !important;
+        margin-left: 0px;
+      }
+      .vk-shop2-slide1-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0px !important;
+      }
+      .img-small-db{
+        margin-left: 0px;
+        margin-top: 20px;
+      }
+      .vk-shop2-slide1-details{
+        margin-left: 0px;
+      }
+      .vk-shop1-md9{
+        margin-top: 20px;
+      }
+      .vk-shop2-slide1-details .vk-shop2-slide1-details-count{
+        width: 100%;
+      }
+      .vk-shop2-slide1-details .vk-shop2-slide1-details-add-cart{
+        width: 100%;
+      }
+      .related-h2{
+        margin-top: 53px;
+      }
+      .list-career li:last-child{
+        margin-bottom: 0px;
+      }
+      .list-career {
+        margin-bottom: 284px;
+      }
+    }
+  }
+
+}

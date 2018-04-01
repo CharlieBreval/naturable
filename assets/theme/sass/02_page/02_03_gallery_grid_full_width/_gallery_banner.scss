@@ -1,0 +1,19 @@
+/*Gallery Banner*/
+.vk-gallery-grid-full-banner{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background-size: cover;
+        background: url("../images/02_03_gallery_grid_full_width/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+/*End Gallery Banner*/

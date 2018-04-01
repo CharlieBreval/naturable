@@ -1,0 +1,196 @@
+/*-----------------------------------------------------------------------------------
+Theme Name: SPARTA
+Author: Univer Theme
+Author URI:
+Version: 1.0.0
+Description: A Beautiful, Professional and Multipurpose Theme Made by Univer Theme
+-----------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+[Table of contents]
+
+    - Base
+    - Font
+    - Components
+        - Hearder
+        - Footer
+        - sidebar blog
+    - Homepage
+        - Home default
+              - blog
+              - booking hotel default
+              - image gallery
+              - our room
+              - select
+              - slideshow
+              - testimonial
+              - welcometo
+        - Home dark background
+              - blog
+              - booking hotel dark background
+              - contact us
+              - header
+              - image gallery
+              - our rooms
+              - our services
+              - slideshow
+              - testimonials
+              - welcometo
+        - Sidebar menu light
+              - blog
+              - header
+              - imagegallery
+              - slideshow
+              - testimonials
+              - welcometo
+        - Sidebar menu dark
+              - blog
+              - booking hotel sidebar menu dark
+              - contact us
+              - header
+              - image gallery
+              - our rooms
+              - our services
+              - slideshow
+              - testimonials
+              - welcometo
+        - Transparent 1
+              - blog
+              - booking transparent 1
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Transparent 2
+              - blog
+              - booking transparent 2
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Center Logo
+              - blog
+              - booking center logo
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Center Logo 2
+              - blog
+              - booking center logo 2
+              - header
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Header Full Width
+              - blog
+              - booking header full width
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Hearder Full width 2
+              - blog
+              - booking header full 2
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+        - Listing room
+              - blog
+              - header
+              - image gallery
+              - our rooms
+              - slideshow
+              - testimonials
+              - welcometo
+    - Page
+        - About
+        - Testimonial
+        - Gallery grid full width
+        - Galllery masonry full width
+        - Gallery grid
+        - 02_06...........
+        - Contact us
+        - 404 page
+        - Comming soon
+    - Services
+        - Restaurant
+        - Spa
+        - Gym
+        - Event
+    - Room
+        - Room list
+        - Room grid
+        - Room detail
+    - Resercvation
+        - Select room
+        - Room selection complete
+        - Make a reservation
+        - Confirmation
+        - Breakcrumb
+    - Event
+        - Events list
+        - Event Grid
+        - Event Details
+    - Blog
+        - Events list
+        - Blog Grid
+        - Post Details
+    - Shortcode
+        - Buttons
+        - Accordion
+        - Notification
+        - Icon box
+        - Tabs
+        - Typography
+        - Dividers
+        - Icon
+        - Color
+        - Dropdown menu
+        - Mega menu
+        - Search menu
+    - Shop
+        - Shop
+        - Product details
+        - Shop Cart
+        - Checkout
+        - Sidebar product
+
+---------------------------------------------------------------- */
+
+@import "base";
+
+@import "fonts";
+
+@import "components/components";
+
+@import "01_hompage/homepage";
+
+@import "02_page/page";
+
+@import "03_services/03_services";
+
+@import "04_rooms/04_rooms";
+
+@import "05_revervation/05_reservation";
+
+@import "06_events/06_events";
+
+@import "07_blog/07_blog";
+
+@import "08_shortcode/08_shortcode";
+
+@import "09_shop/09_shop";
+
+@import "custom";

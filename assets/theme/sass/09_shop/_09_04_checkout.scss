@@ -1,0 +1,383 @@
+.vk-shop-checkout{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../images/09_01_shop/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+.vk-shop-checkout-body{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .checkout-ship-address-checkbox{
+    display: none;
+  }
+  .checkbox-create-account-form{
+    display: none;
+  }
+  .woocommerce-form-login{
+    p{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 1.57;
+      text-align: left;
+      color: #7b7b7b;
+    }
+  }
+  .vk-form-woo-login{
+    display: none;
+    background: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+    .form-row{
+      margin-top: 30px;
+    }
+  }
+  .vk-checkout-order-paypal{
+    margin-top: 60px;
+  }
+  .vk-checkout-ship-address{
+    select{
+      width: 100%;
+      height: 50px;
+      background-color: #ffffff;
+      border: 1px solid #f0f0f0;
+      padding: 0 20px;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 0;
+      text-align: left;
+      color: #aeaeae;
+    }
+    textarea{
+      width: 100%;
+      height: 151px;
+      background-color: #ffffff;
+      border: 1px solid #f0f0f0;
+      padding: 20px;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      text-align: left;
+      color: #aeaeae;
+    }
+  }
+  .vk-checkout-creat-account{
+    //background: #ffffff;
+    //padding: 30px;
+    h3{
+      label{
+        font-size: 14px;
+      }
+    }
+    .vk-check-create-account-form{
+      background: #ffffff;
+      padding: 30px;
+      .form-row{
+        margin: 30px 0;
+      }
+    }
+  }
+
+  #payment{
+    h3{
+      font-family: "Playfair Display", serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      color: #333333;
+      margin-bottom: 25px;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      background: #fff;
+      padding: 30px;
+      li{
+        list-style-type: none;
+        label{
+          font-family: "Playfair Display", serif;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.57;
+          text-align: left;
+          color: #333333;
+        }
+        .payment_box{
+          padding-left: 20px;
+          p{
+            font-family: "Raleway", sans-serif;
+            font-size: 14px;
+            line-height: 1.86;
+            text-align: left;
+            color: #7b7b7b;
+          }
+        }
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.57;
+          text-align: left;
+          color: #62b043;
+          &:hover{
+            color: #333333;
+          }
+        }
+
+      }
+    }
+    .place-order{
+      margin-top: 30px;
+      input{
+        width: 100%;
+        height: 50px;
+        background-color: #62b043;
+        border: 1px solid #62b043;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 2.77;
+        text-align: center;
+        color: #ffffff;
+        transition: all 0.5s;
+        &:hover {
+          background: #fff;
+          color: #62b043;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+
+  .vk-checkout-order-left{
+    h3{
+      font-family: "Playfair Display", serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      color: #333333;
+      margin-bottom: 25px;
+    }
+    table{
+      width: 100%;
+      background: #fff;
+      tr{
+        td{
+          border-bottom: 1px solid #f0f0f0;
+          padding:  20px 30px;
+
+        }
+        th{
+          border-bottom: 1px solid #f0f0f0;
+          padding:  20px 30px;
+        }
+      }
+    }
+    thead{
+      border-bottom: 2px solid #333;
+    }
+    .order-total{
+      color: #62b043;
+    }
+  }
+  .vk-checkout-billing-left{
+    padding-top: 60px;
+    padding-bottom: 43px;
+    h3{
+      font-family: "Playfair Display", serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    p{
+      margin-bottom: 27px;
+      label{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.57;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+      .required{
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.22;
+        color: #62b043;
+      }
+    }
+    .woocommerce-billing-fields{
+      select{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        border: 1px solid #f0f0f0;
+        padding: 0 20px;
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 0;
+        text-align: left;
+        color: #aeaeae;
+      }
+    }
+  }
+  .vk-check-coupon{
+    display: none;
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 10px;
+    .form-row-first{
+      input{
+        width: 100%;
+        height: 50px;
+      }
+    }
+    .form-row-last{
+      input[type="submit"]{
+        border: 1px solid #62b043;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        color: #ffffff;
+        background: #62b043;
+        transition: all 0.5s;
+        &:hover{
+          background: #fff;
+          color: #62b043;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+  .entry-content-wrapper{
+    .woocommerce-info{
+      margin-bottom: 10px;
+      background: #fff;
+      padding: 21px 30px;
+      border-top: 2px solid #62b043;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #7b7b7b;
+      i{
+        font-family: FontAwesome;
+        font-size: 18px;
+        line-height: 1.67;
+        color: #62b043;
+      }
+      a{
+        color: #62b043;
+      }
+    }
+    .form-row-first{
+      input{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        border: 1px solid  #f0f0f0;
+        padding: 20px;
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: left;
+        color: #aeaeae;
+      }
+    }
+    .form-row-last{
+      input{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        border: 1px solid  #f0f0f0;
+        padding: 20px;
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: left;
+        color: #aeaeae;
+      }
+    }
+    .vk-checkout-login{
+      margin-top: 30px;
+      p{
+        margin-bottom: 0px;
+      }
+      input{
+        &.button{
+          width: 180px;
+          height: 50px;
+          background-color: #62b043;
+        }
+      }
+      input[type="submit"]{
+        border: 1px solid #62b043;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1.69;
+        text-align: center;
+        color: #ffffff;
+        transition: all 0.5s;
+        &:hover{
+          background: #fff;
+          color: #62b043;
+          transition: all 0.5s;
+        }
+      }
+      .woocommerce-form__label-for-checkbox{
+        input[type=checkbox]{
+          width: 16px;
+          height: 16px;
+          border-radius: 3px;
+          background-color: #ffffff;
+          border: solid 1px #aeaeae;
+          margin-left: 20px;
+        }
+        span{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          line-height: 1.57;
+          text-align: left;
+          color: #7b7b7b;
+          font-weight: normal;
+        }
+      }
+      .lost_password{
+        margin: 0;
+        padding-top: 15px;
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          line-height: 1.57;
+          text-align: right;
+          color: #62b043;
+          &:hover{
+            color: #333;
+          }
+          i{
+            font-family: FontAwesome;
+            font-size: 18px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+}

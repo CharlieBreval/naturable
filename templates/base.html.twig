@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('theme/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/bootstrap-theme.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/style.css') }}">
+        <link href="{{ asset('theme/fonts/raleway/raleway.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('theme/fonts/font-awesome/css/font-awesome.css') }}">
+        <link href="{{ asset('theme/fonts/playfair-display/playfair-display.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('theme/plugin/dist/assets/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/plugin/dist/assets/owl.theme.default.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/themify-icons.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/animate.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/bootstrap-datepicker3.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('theme/css/jquery-ui.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/nice-select.css') }}">
+        <link href="{{ asset('theme/css/lightgallery.css" rel="stylesheet') }}">
+        <link href="{{ asset('theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('theme/css/semantic.css') }}">
+    {% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <div class="vk-sparta-center-logo-2">
+        <div id="wrapper-container" class="site-wrapper-container">
+            {% include 'nav.html.twig' %}
+
+            {% block body %}
+            {% endblock %}
+        </div><!-- #wrapper-container -->
+    </div><!-- .vk-sparta-center-logo-2 -->
+
+{% block javascripts %}
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="{{ asset('theme/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery1.min.js') }}"></script>
+    <script src="{{ asset('theme/plugin/dist/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery.waypoints.js') }}"></script>
+    <script src="{{ asset('theme/js/number-count/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('theme/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap-datepicker.min.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap-datepicker.tr.min.js') }}"></script>
+    <script src="{{ asset('theme/js/moment.min.js') }}"></script>
+    <script src="{{ asset('theme/js/wow.min.js') }}"></script>
+    <script src="{{ asset('theme/js/bootstrap-datetimepicker.js') }}" charset="UTF-8"></script>
+    <script src="{{ asset('theme/js/bootstrap-datetimepicker.fr.js') }}" charset="UTF-8"></script>
+    <script src="{{ asset('theme/js/picturefill.min.js') }}"></script>
+    <script src="{{ asset('theme/js/lightgallery.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-pager.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-autoplay.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-fullscreen.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-zoom.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-hash.js') }}"></script>
+    <script src="{{ asset('theme/js/lg-share.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery.nice-select.js') }}"></script>
+    <script src="{{ asset('theme/js/semantic.js') }}"></script>
+    <script src="{{ asset('theme/js/parallax.min.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ asset('theme/js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('theme/js/main.js') }}"></script>
+{% endblock %}
+</body>
+</html>

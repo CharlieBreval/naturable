@@ -1,0 +1,301 @@
+
+.vk-select-room{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/04_01_room_list/background.jpg") no-repeat !important;
+          background-size: contain;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-select-room-content{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .vk-select-room-breakcrumb{
+    @media screen and (max-width: 991px){
+      display: none;
+    }
+    ul{
+      li{
+        &.active {
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-select-room-info{
+    .vk-select-room-info-item{
+      background-color: #ffffff;
+      padding: 40px 20px;
+      margin-bottom: 30px;
+      transition: all 0.5s;
+      &:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+      }
+      .vk-select-room-item-img{
+        float: left;
+        img{
+          width: 100%;
+          height:auto;
+        }
+        @media screen and (max-width: 991px) {
+          float: none;
+        }
+      }
+      .vk-select-room-item-info{
+        padding-left: 235px;
+        @media screen and (max-width: 991px) {
+          padding-left: 0px;
+          padding-top: 30px;
+        }
+        h2{
+          font-family: "Playfair Display", serif;
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 1.07;
+          text-align: left;
+          color: #333333;
+          margin: 0px;
+        }
+        .vk-select-room-item-body{
+          margin-top: 40px;
+          margin-bottom: 10px;
+          border-bottom: 1px solid #f0f0f0;
+          @media screen and (max-width: 991px){
+            margin: 20px 0;
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            li{
+              list-style-type: none;
+              width: 50%;
+              float: left;
+              @media screen and (max-width: 991px){
+                width: 100%;
+                float: none;
+              }
+              p{
+                font-family: Raleway;
+                font-size: 14px;
+                line-height: 2.86;
+                text-align: left;
+                color: #333;
+                font-weight: bold;
+                margin: 0px;
+                span{
+                  color: #7b7b7b;
+                  font-weight: normal;
+                }
+              }
+            }
+          }
+        }
+        .vk-select-room-item-footer{
+          margin-top: 20px;
+          .vk-select-room-footer-left{
+            float: left;
+            ul{
+              margin: 0px;
+              padding: 0px;
+              li{
+                list-style-type: none;
+                display: inline-block;
+
+                font-family: "Raleway", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: left;
+                  color: #62b043;
+                  @media screen and (min-width: 320px) and (max-width: 335px) {
+                    font-size: 24px;
+                  }
+                  span{
+                    font-size: 12px;
+                    line-height: 2.5;
+                  }
+                }
+              }
+            }
+          }
+          .vk-select-room-footer-right{
+            float: right;
+            a{
+              font-family: "Raleway", sans-serif;
+              font-size: 13px;
+              font-weight: bold;
+              line-height: 2.31;
+              text-align: center;
+              color: #ffffff;
+              border: 1px solid #62b043;
+              padding: 12px 36px;
+              background: #62b043;
+              transition: all 0.5s ;
+              &:hover{
+                background: #ffffff;
+                color: #62b043;
+                text-decoration: none;
+                transition: all 0.5s ;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .vk-room-details-content-right{
+    padding: 30px 0;
+    h3{
+      margin: 0 30px;
+    }
+    form{
+      padding: 0 30px;
+      overflow: hidden;
+    }
+    .vk-select-room1{
+      margin-top: 28px;
+      padding: 0 30px;
+      h2{
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.67;
+        color: #ffffff;
+        margin: 0px;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display:inline-block;
+          padding-right: 20px;
+
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+          a{
+            font-family: "Raleway", sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2.14;
+            text-align: left;
+            font-style: italic;
+            color: #fefefe;
+            border-bottom: 1px solid #ffffff;
+            text-decoration: none;
+            transition: all 0.5s;
+            &:hover{
+              border-bottom: none;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+    }
+    .vk-select-room2{
+      margin-top: 30px;
+      margin-bottom: 40px;
+      background: #8c7033;
+      padding: 30px;
+      h2{
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.67;
+        color: #ffffff;
+        margin: 0px;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display:inline-block;
+          padding-right: 20px;
+
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+        }
+      }
+    }
+  }
+}
+
+
+.vk-select-room-pagination{
+  margin-top: 10px;
+  @media screen and (max-width: 991px){
+    margin-bottom: 60px;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      border: 1px solid #e0e0e0;
+      padding: 10px 16px;
+      margin-right: 8px;
+      transition: all 0.5s;
+      @media screen and (max-width: 400px) {
+        padding: 5px 11px;
+      }
+      &:hover{
+        background: #62b043;
+        transition: all 0.5s;
+        a{
+          color: #fff;
+        }
+      }
+      &.active{
+        background: #62b043;
+        a{
+          color: #fff;
+        }
+      }
+      a{
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        color: #7b7b7b;
+        text-decoration: none;
+      }
+    }
+  }
+}

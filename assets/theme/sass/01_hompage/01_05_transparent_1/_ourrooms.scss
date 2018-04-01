@@ -1,0 +1,229 @@
+/* Home transparent 1 our rooms*/
+.vk-transparents-our-rooms{
+  padding: 99px 0;
+  background: #f9f9f9;
+  .item{
+    @media screen and (max-width: 767px) {
+      margin: 0 20px;
+      background: #fff;
+    }
+    .vk-dark-our-room-item-img{
+      img{
+        width: 100%;
+        height:auto;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+      &:hover{
+        img{
+          opacity: 0.6;
+          transition: all 0.5s ;
+        }
+      }
+    }
+    .vk-dark-our-room-item-content{
+      h3{
+        a{
+          color: #333;
+          transition: all 0.5s;
+          &:hover{
+            color: #62b043;
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+  .vk-sparta-head-title{
+    h3{
+      margin: 0px;
+    }
+    h2{
+      color: #333333;
+    }
+  }
+  .vk-sparta-image{
+    margin-top: 0px;
+  }
+
+  .vk-dark-our-room-item-right{
+    background: #FFFFFF;
+    padding:0 30px;
+    .vk-dark-our-room-item-content{
+      h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1.07;
+        text-align: left;
+        color: #333333;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          margin-top: 20px;
+        }
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 26px;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          padding-top: 15px;
+          padding-bottom: 10px;
+        }
+        li{
+          list-style-type: none;
+          p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            line-height: 2.86;
+            text-align: left;
+            color: #333333;
+            font-weight: bold;
+            margin: 0px;
+            span{
+              font-weight: normal;
+              color:#7b7b7b  ;
+            }
+            i{
+              margin-right: 10px;
+            }
+          }
+
+        }
+      }
+      .vk-dark-our-room-item-book{
+        border-top: 1px solid #f0f0f0 ;
+        padding: 20px 0;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          padding: 12px 0;
+        }
+        .vk-dark-our-room-item-book-left{
+          float: left;
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display: inline-block;
+              p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                span{
+                  font-family: "Cinzel Decorative";
+                  font-size: 12px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+              &:last-child{
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+        .vk-dark-our-room-item-book-right{
+          float: right;
+          a{
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 2.31;
+            text-align: left;
+            color: #333333;
+            text-decoration: none;
+            &:hover{
+              color: #62b043;
+            }
+          }
+        }
+      }
+    }
+  }
+  .owl-nav{
+    @media screen and (max-width: 1199px) and (min-width: 992px) {
+      display:  none;
+    }
+    .owl-prev{
+      position: absolute;
+      left: -6% !important;
+      top: 45% !important;
+      transform: translateY(-50%);
+      border-radius: 50px;
+      padding: 0px;
+      &:after{
+        content: "\f177";
+        display: block;
+        color: #e0e0e0;
+        font-family: FontAwesome;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 1;
+        text-align: left;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+    .owl-next{
+      background: white;
+      border-radius: 50px;
+      position: absolute;
+      right: -6% !important;
+      top: 45% !important;
+      transform: translateY(-50%);
+      color: rgba(0, 0, 0, 0.8);
+      padding: 0px;
+      &:after{
+        content: "\f178";
+        display: block;
+        font-family: FontAwesome;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 1;
+        text-align: left;
+        color: #e0e0e0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .owl-theme .owl-nav [class*=owl-]{
+    background: transparent;
+    &:hover{
+      background: transparent;
+      text-decoration: none;
+      &:after{
+        color: #62b043;
+      }
+    }
+  }
+  .owl-dots{
+    margin-top: 55px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #62b043;
+  }
+}
+/* End Home transparent 1 our rooms*/

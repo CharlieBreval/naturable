@@ -1,0 +1,205 @@
+/*Home header full width header*/
+.vk-sparta-header-full-width{
+  overflow: hidden;
+  position: relative;
+    .vk-main-header-full-width-menu{
+      &.fixed{
+        .main-navigation{
+          ul{
+            li{
+              padding: 0 10px;
+            }
+          }
+        }
+      }
+    }
+  .header-default{
+    height: 101px;
+  }
+
+  .ui.selection.dropdown{
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #7b7b7b;
+    padding-bottom: 46px;
+  }
+  .ui.dropdown .menu > .item{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.31;
+    text-align: center;
+    color: #7b7b7b;
+  }
+  .vk-top-header{
+    @media screen and (min-width:992px) {
+      display: none;
+    }
+  }
+  .vk-header-full-logo{
+    float: left;
+  }
+  .vk-header-full-language{
+    float: right;
+  }
+  ul{
+    margin: 0px;
+  }
+  .mobile-nav{
+    .navbar-toggle{
+      float: none;
+      position: absolute;
+      top: 78px;
+      right: 0;
+    }
+  }
+  .vk-top-header-right{
+    @media screen and (max-width: 1219px) and (min-width: 992px) {
+      display: none;
+    }
+  }
+  .vk-main-header-full-width-menu{
+    background: #fff;
+    .wrapper-logo{
+      background: url("../images/01_09_header-full-width/box22.png");
+      background-size: cover;
+      width: 200px;
+      height: 101px;
+      overflow: hidden;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      @media screen and (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      @media screen and (max-width: 991px) {
+        padding-top: 30px;
+      }
+      img{
+        width: 131px;
+        height: 46px;
+        overflow: hidden;
+      }
+    }
+    .vk-dark-menu-text{
+      position: relative;
+      .show-hover-shortcodes{
+        top: inherit;
+      }
+      .box-search-header{
+        top: inherit;
+      }
+    }
+    .main-navigation{
+      float: none;
+      text-align: center;
+      @media screen and (max-width: 991px) {
+        display: none;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          line-height: 101px;
+          padding: 0px 10px;
+          @media screen and (max-width: 1395px) and (min-width: 1220px) {
+            padding: 0px 0;
+          }
+          @media screen and (max-width: 1219px) and (min-width: 992px){
+            padding: 0px 4px;
+          }
+          a{
+            font-family: "Cinzel Decorative";
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 2.14;
+            text-align: right;
+            color: #7b7b7b;
+            text-decoration: none;
+            padding: 40px 10px;
+            &:hover{
+              color: #62b043;
+            }
+          }
+
+        }
+      }
+    }
+
+    .vk-top-header-right{
+      position:  relative;
+      z-index: 99999;
+      float: right;
+      padding: 25px 0px;
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0px;
+      }
+      @media screen and (max-width: 991px) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: none;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          font-family: 'Raleway', sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 2.31;
+          text-align: center;
+          color: #7b7b7b;
+          //padding: 10px 25px;
+          @media screen and (max-width: 320px) {
+            font-size: 13px;
+          }
+          @media screen and (max-width: 767px) {
+            width: 30%;
+            font-size: 10px;
+          }
+          &:first-child{
+            //width:37%;
+            background: #62b043;
+            transition: all 0.5s;
+            padding: 10px 0;
+            a{
+              padding: 10px 33px;
+              color: white;
+            }
+            &:hover{
+              background: #333333;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+      .wrap-select{
+        .wrapper-dropdown-3{
+          padding: 10px 30px;
+          ul{
+            li{
+              &:first-child{
+                background: transparent;
+                padding: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*End Home header full width header*/

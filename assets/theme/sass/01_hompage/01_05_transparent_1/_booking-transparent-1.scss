@@ -1,0 +1,46 @@
+/*Home transparent 1 booking hotel*/
+.vk-booking-transparent-1{
+  position: absolute;
+  top:58%;
+  width: 100%;
+  z-index: 1;
+  @media screen and (max-width: 1199px) and (min-width: 992px) {
+    position: relative;
+    top: 0;
+  }
+  @media screen and (max-width: 991px) {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .booking-hotel-all{
+    background: #f0f0f0;
+    margin-top: 85px;
+    padding: 15px;
+    @media screen and (max-width: 991px) {
+      margin-top: 50px;
+    }
+    ul{
+      li{
+        margin-right: 13px;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          margin-right: 11px;
+        }
+        &:nth-child(5){
+          margin-right: 0;
+        }
+        .vk-btn-check{
+          .btn{
+            background: url("../images/01_05_transparents_1/box2.png");
+            transition: all 0.5s;
+          }
+          &:hover{
+            .btn{
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* End Home transparent 1 booking hotel*/

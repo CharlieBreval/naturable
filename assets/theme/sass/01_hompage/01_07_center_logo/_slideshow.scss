@@ -1,0 +1,56 @@
+/*Home center logo slideshow*/
+.vk-sparta-center-logo-slide{
+  .vk-slide-cation-btn{
+    margin-top: 50px;
+    text-align: center;
+    @media screen and (max-width: 767px) {
+      margin-top: 10px;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+        &:last-child{
+          margin-right: 0px;
+        }
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.14;
+          text-align: center;
+          color: #ffffff;
+          text-decoration: none;
+          padding: 19px 40px;
+          border: 1px solid #fff;
+          transition:  all 0.5s;
+          @media screen and (max-width: 767px) {
+            padding: 16px 28px;
+          }
+          @media screen and (max-width: 350px) {
+            padding: 10px 19px;
+          }
+          &:hover{
+            background: #62b043;
+            border: 1px solid #62b043;
+            transition:  all 0.5s;
+          }
+        }
+        &:last-child{
+          a{
+            background: #62b043;
+            border: 1px solid #62b043;
+            &:hover{
+              background: transparent;
+              border: 1px solid #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* End Home center logo slideshow*/

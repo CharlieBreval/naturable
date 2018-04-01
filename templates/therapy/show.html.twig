@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+{% block body_class %}therapie-show{% endblock %}
+{% block body %}
+    <div class="vk-restaurant">
+
+        <!--BENGIN CONTENT HEADER-->
+        <section class="site-content-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="vk-gallery-grid-full-banner">
+                        <div class="vk-about-banner">
+                            <div class="vk-about-banner-destop">
+                                <div class="vk-banner-img" style="background:url('{{ asset(therapy.banner) }}') no-repeat !important;"></div>
+                                <div class="vk-about-banner-caption">
+                                    <h2>{{ therapy.title }}</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="vk-restaurant-content">
+
+
+
+                        <div class="vk-restaurant-about">
+                            <div class="container">
+                                {% for content in therapy.contents %}
+                                <div class="vk-restaurant-item-about">
+                                    <div class="row">
+                                        <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-push-6{% endif %}">
+                                            <div class="vk-resstaurant-item-img">
+                                                <img src="{{ asset(content.image) }}" alt="" class="img-responsive">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-pull-6 {% endif %} vk-restaurant-item-info">
+                                            <div class="vk-restaurant-about-item">
+                                                <h4>{{ content.topTitle }}</h4>
+                                                <h3>{{ content.title }}</h3>
+                                                {{ content.text|raw }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END CONTENT ABOUT-->
+    </div>
+
+{% endblock %}

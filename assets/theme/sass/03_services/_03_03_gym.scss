@@ -1,0 +1,240 @@
+/*Services gym*/
+.vk-gym{
+
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/03_03_gym/background.jpg") no-repeat !important;
+          background-size: cover;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 911px) {
+            height:260px;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-gym-header{
+    h3{
+      font-family: "Cinzel Decorative";
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.14;
+      letter-spacing: 2.8px;
+      text-align: center;
+      color: #62b043;
+    }
+    h2{
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      color: #333333;
+      margin: 0;
+    }
+    .vk-gym-border{
+      width: 40px;
+      height: 3px;
+      background-color: #62b043;
+      margin: 0 auto;
+      margin-top: 38px;
+      margin-bottom: 59px;
+    }
+  }
+
+
+  .vk-gym-welcome-to{
+    padding: 100px 0;
+    .vk-gym-text{
+      padding: 0 135px;
+      @media screen and (max-width: 991px){
+        padding: 0px 20px;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: center;
+        color: #7b7b7b;
+      }
+    }
+    .vk-gym-authour{
+      margin-top: 19px;
+      p{
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: center;
+        color: #333333;
+        a{
+          color: #62b043;
+          text-decoration: none;
+        }
+      }
+    }
+    .vk-gym-time{
+      margin-top: 50px;
+      ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          padding: 0 115px;
+          border-right: 1px solid #333333;
+          @media screen and (max-width: 991px) {
+            padding: 0 24px;
+          }
+          &:last-child{
+            border-right: none;
+          }
+          p{
+            font-family: "Playfair Display", serif;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.25;
+            text-align: center;
+            color: #333333;
+            margin-bottom: 5px;
+            @media screen and (max-width: 374px) and (min-width: 320px){
+              font-size: 20px;
+            }
+          }
+          .time{
+            font-family: "Playfair Display", serif;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 2.14;
+            text-align: center;
+            color: #7b7b7b;
+          }
+
+        }
+      }
+    }
+  }
+
+
+  .vk-gym-fitness{
+    //background: url("../images/03_03_gym/background2.jpg") no-repeat;
+    background-size: cover;
+    padding: 187px 0;
+    background-attachment: fixed;
+    img{
+      margin: 0 auto;
+    }
+    h3{
+      font-family: "Cinzel Decorative";
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.67;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 43px;
+      margin-bottom: 38px;
+    }
+    h2{
+      font-family: "Playfair Display", serif;
+      font-size: 80px;
+      font-weight: 900;
+      text-align: center;
+      color: #ffffff;
+      @media screen and (max-width: 991px) {
+        font-size: 36px;
+      }
+    }
+    h4{
+      font-family: "Raleway", sans-serif;
+      font-size: 18px;
+      line-height: 1.67;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 50px;
+    }
+  }
+
+
+  .vk-gym-meet-our-trainer{
+    background: #f9f9f9;
+    padding: 100px 0px;
+    .vk-gym-meet-our-trainner-item{
+      position: relative;
+      overflow: hidden;
+      .vk-gym-trainer-item-img{
+        position: relative;
+        overflow: hidden;
+        img{
+          position: relative;
+          width: 100%;
+          height:auto;
+          overflow: hidden;
+          transition:  all 0.5s;
+        }
+        //&:hover{
+        //  img{
+        //    transition: all 0.5s;
+        //    transform: scale(1.1);
+        //    overflow: hidden;
+        //  }
+        //}
+      }
+      .vk-gym-trainer-item-text{
+        background-color: #ffffff;
+        padding: 30px 0;
+        h2{
+          margin: 0px;
+          text-align: center;
+          padding-bottom: 16px;
+          a{
+            font-family: "Playfair Display", serif;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            color: #333333;
+            text-decoration: none;
+            transition:  all 0.3s;
+          }
+          //&:hover{
+          //  a{
+          //    color: #62b043;
+          //    transition:  all 0.3s;
+          //  }
+          //}
+        }
+        p{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          text-align: center;
+          color: #7b7b7b;
+          margin: 0px;
+        }
+      }
+      &:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        .vk-gym-trainer-item-img{
+          img{
+            transition: all 0.5s;
+            transform: scale(1.1);
+            overflow: hidden;
+          }
+        }
+        .vk-gym-trainer-item-text{
+         h2{
+           a{
+             color: #62b043;
+             transition:  all 0.3s;
+           }
+         }
+        }
+      }
+    }
+  }
+}
+/*End Services spa*/

@@ -1,0 +1,12 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}New Therapy{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+        {{ include('admin/therapy/_form.html.twig') }}
+
+        <a class="btn btn-info" href="{{ path('admin_therapy_index') }}">back to list</a>
+    </div>
+{% endblock %}

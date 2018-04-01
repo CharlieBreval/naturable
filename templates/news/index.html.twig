@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+{% block body_class %}news-index{% endblock %}
+{% block body %}
+    <div class="vk-blog-grid">
+
+        <!--BENGIN CONTENT HEADER-->
+        <section class="site-content-area">
+            <div class="vk-blog-grid-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="vk-blog-grid-body-left">
+                                <div class="row">
+                                    {% for new in news %}
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="vk-blog-grid-left-item">
+                                                <div class="vk-blog-grid-left-item-img">
+                                                    <a href="{{ path('news_show', {'slug' : new.slug}) }}">
+                                                        <img src="{{ asset(new.image) }}" alt="" class="img-responsive">
+                                                    </a>
+                                                </div>
+                                                <div class="vk-blog-grid-left-item-text">
+                                                    <h2><a href="{{ path('news_show', {'slug' : new.slug }) }}">{{ new.title }}</a></h2>
+                                                    <div class="time">{{ new.createdAt|localizeddate('long', 'none', 'fr') }}</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END CONTENT ABOUT-->
+
+    </div>
+{% endblock %}

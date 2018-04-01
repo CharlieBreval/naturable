@@ -1,0 +1,22 @@
+/*Home header full width 2 booking hotel*/
+.vk-header-full-slide{
+  .vk-booking-transparent-2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 932px !important;
+    padding: 0 10px;
+    @media screen and (max-width: 1199px) and (min-width: 992px) {
+      min-height: 600px !important;
+      padding: 40px 20px;
+    }
+  }
+  .vk-transparent-2-left{
+    padding-top: 260px;
+  }
+  .vk-booking-head{
+    h2{
+      margin: 0px !important;
+      text-align: center !important;
+    }
+  }
+}
+/*End Home header full width 2 booking hotel*/

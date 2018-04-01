@@ -1,0 +1,108 @@
+/*Reservation confirmation*/
+.vk-confirmation{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/04_01_room_list/background.jpg") no-repeat !important;
+          background-size: contain;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-confirmation-content{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .vk-select-room-breakcrumb{
+    @media screen and (max-width: 991px){
+      display: none;
+    }
+    ul{
+      li{
+        &.active {
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+        &.make-a-reservation{
+          span{
+            background: #62b043;
+            i{
+              color: #ffffff;
+            }
+          }
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+        &.confirmation{
+          span{
+            background: #62b043;
+            i{
+              color: #ffffff;
+            }
+          }
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-confirmation-info{
+    .vk-confirmation-left{
+      background: #ffffff;
+      padding: 30px ;
+      h2{
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: center;
+        color: #333333;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        color: #7b7b7b;
+        padding:  20px 0;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          line-height: 1.86;
+          text-align: center;
+          color: #7b7b7b;
+          span{
+            color: #62b043;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-make-a-grand-total{
+    padding-bottom: 0px;
+  }
+}
+/*Reservation confirmation*/

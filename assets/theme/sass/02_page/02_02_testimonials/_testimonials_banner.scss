@@ -1,0 +1,22 @@
+/*testimonial banner*/
+.vk-testimonials-banner{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 393px;
+        background-size: contain;
+        background: url("../images/02_02_testimonials/background.jpg");
+        width: 100%;
+        background-position: center center;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+/*end testimonial banner*/

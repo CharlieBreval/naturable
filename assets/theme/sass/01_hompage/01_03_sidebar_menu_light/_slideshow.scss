@@ -1,0 +1,14 @@
+/* Home siderbar menu light slideshow*/
+.vk-sparta-menu-left-light{
+  @media screen and (max-width: 991px) {
+    .vk-slide{
+      display: block !important;
+    }
+  }
+  @media screen and (max-width: 1546px) and (min-width: 992px) {
+    .container{
+      width: 100%;
+    }
+  }
+}
+/* End Home siderbar menu light slideshow*/

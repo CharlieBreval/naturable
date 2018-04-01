@@ -1,0 +1,534 @@
+/*Room details*/
+.vk-room-details{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/04_01_room_list/background.jpg") no-repeat !important;
+          background-size: cover;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-room-details-content{
+  padding: 100px 0;
+}
+.vk-room-details-content-left{
+  .vk-room-details-left-slide{
+    position: relative;
+    .owl-nav {
+      display: block !important;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      .owl-prev {
+        position: absolute;
+        left: 39px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+        background: transparent;
+        border-radius: 50px;
+        padding: 0px;
+        &:after {
+          content: "\f053";
+          display: block;
+          color: #fff !important;
+          font-family: FontAwesome;
+          font-size: 30px;
+          padding: 9px;
+          line-height: 0.87;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.2);
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+      }
+      .owl-next {
+        background: white;
+        border-radius: 50px;
+        position: absolute;
+        right: 39px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+        color: #fff;
+        padding: 0px;
+        background: transparent;
+        &:after {
+          content: "\f054";
+          display: block;
+          color: #fff !important;
+          font-family: FontAwesome;
+          font-size: 30px;
+          padding: 9px;
+          line-height: 0.87;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.2);
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .owl-dots{
+      position: absolute;
+      bottom: 30px;
+      right:0;
+      left:0;
+    }
+    .owl-theme .owl-nav [class*=owl-]:hover{
+      background: transparent;
+    }
+  }
+
+
+  .vk-room-details-title-price{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 20px;
+    @media screen and (max-width: 991px) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .vk-room-details-title{
+      float: left;
+      @media screen and (max-width: 991px) {
+        float: none;
+        margin-bottom: 20px;
+      }
+      h2{
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+        color: #333333;
+        margin: 0px;
+      }
+    }
+    .vk-room-details-price{
+      float: right;
+      @media screen and (max-width: 991px) {
+        float: none;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          font-family: "Raleway", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.88;
+          text-align: left;
+          color: #7b7b7b;
+          p{
+            font-family: "Cinzel Decorative";
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 1;
+            text-align: left;
+            color: #62b043;
+            span{
+              font-size: 12px;
+              line-height: 2.5;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .vk-room-details-description{
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    h4{
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.88;
+      text-align: left;
+      color: #333333;
+    }
+    p{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 2.14;
+      text-align: left;
+      color: #7b7b7b;
+    }
+  }
+
+
+  .vk-room-details-info{
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        list-style-type: none;
+        p{
+          margin: 0px;
+          i{
+            margin-right: 10px;
+          }
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          line-height: 2.86;
+          text-align: left;
+          font-weight: bold;
+          color: #333333;
+          span{
+            color: #7b7b7b;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+
+
+  .vk-room-details-review{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    h4{
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.88;
+      text-align: left;
+      color: #333333;
+    }
+    .vk-room-details-review-item{
+      margin-bottom: 40px;
+      .item-img{
+        float: left;
+        padding-right: 20px;
+
+      }
+    }
+    .item-content{
+      padding-left: 100px;
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: left;
+        font-weight: 800;
+        color: #333333;
+        span{
+          color: #7b7b7b;
+          font-weight: normal;
+        }
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #7b7b7b;
+      }
+    }
+  }
+
+ .vk-room-details-room-details{
+   h4{
+     font-family: "Raleway", sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 1.88;
+     text-align: left;
+     color: #333333;
+     span{
+       font-family: FontAwesome;
+       font-weight: normal;
+       letter-spacing: 1.6px;
+       color: #f2bf52;
+     }
+   }
+   form{
+     input{
+       height: 50px;
+     }
+     textarea{
+       height: 200px;
+     }
+     .form-control{
+       border-radius: 0px;
+       margin-bottom: 30px;
+       &:focus{
+         border-color: rgba(176, 145, 79, 0.5);
+         outline: 0;
+         -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(176, 145, 79, 0.6);
+         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(176, 145, 79, 0.6);
+       }
+     }
+     .form-group{
+       margin-bottom: 0px;
+     }
+     .vk-btn-submit{
+       @media screen and (max-width: 991px) {
+         margin-bottom: 80px;
+       }
+       a{
+         font-family: "Raleway", sans-serif;
+         font-size: 13px;
+         font-weight: bold;
+         line-height: 2.31;
+         text-align: center;
+         color: #ffffff;
+         padding: 16px 37px;
+         background: #62b043;
+         border: 1px solid #62b043;
+         transition: all 0.5s;
+         &:hover{
+           background: #fff;
+           color: #62b043;
+           text-decoration: none;
+           transition: all 0.5s;
+         }
+       }
+     }
+   }
+ }
+}
+
+.vk-room-details-content-right{
+  padding: 30px;
+  background: #62b043;
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+  }
+  label{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-align: left;
+    color: #ffffff;
+  }
+  h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #f9f9f9;
+    border-bottom: 1px solid #fff;
+  }
+  input{
+    height: 50px;
+    border-radius: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+    text-align: left;
+    color: #7b7b7b;
+  }
+
+  .input-group-addon{
+    background: white !important;
+    border-radius: 0px;
+  }
+  .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+    border-radius: 0;
+    height: 50px;
+  }
+  button{
+    border:0;
+    background:transparent;
+  }
+
+  select{
+    height: 50px;
+    border-radius: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.14;
+    text-align: left;
+    color: #7b7b7b;
+  }
+  .vk-btn-send{
+    .btn {
+      display: inline-block;
+      padding: 9px;
+      margin-bottom: 0;
+      margin-top: 30px;
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.88;
+      text-align: center;
+      color: #f9f9f9;
+      white-space: nowrap;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 0px;
+      background: #333;
+
+    }
+  }
+  #adults, #children{
+    background: #8c7033;
+    color: #ffffff;
+    border: none;
+  }
+
+}
+
+.vk-room-related-rooms-mobile{
+  display: none;
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+.vk-room-related-rooms-destop{
+
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+
+
+.vk-room-details-related-rooms{
+  padding: 100px 0;
+  background: #f9f9f9;
+  .vk-room-related-rooms{
+    h2{
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      color: #333333;
+    }
+    .vk-room-related-border{
+      width: 40px;
+      height: 3px;
+      background-color: #62b043;
+      margin: 0 auto;
+      margin-top: 38px;
+      margin-bottom: 60px;
+    }
+  }
+  .vk-room-related-slide{
+    .item{
+      margin-bottom: 60px;
+      background-color: #ffffff;
+      transition: all 0.5s;
+      &:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+      }
+      .vk-sparta-item-content{
+        position: relative;
+        overflow: hidden;
+        &:hover{
+          .vk-item-img{
+            img{
+              transform: scale(1.1);
+              transition: all 0.5s;
+            }
+          }
+          .vk-item-text{
+            a{
+              color:#62b043 ;
+              transition:  all 0.5s;
+            }
+          }
+        }
+        .vk-item-img{
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            transition: all 0.5s;
+          }
+        }
+        .vk-item-text{
+          padding: 31px 20px;
+          h2{
+            margin-top: 0px;
+            margin-bottom: 26px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            a{
+              display:  block;
+              font-family: 'Playfair Display', serif;
+              font-size: 28px;
+              font-weight: bold;
+              line-height: 1.07;
+              text-align: left;
+              color: #333333;
+              text-decoration: none;
+              transition:  all 0.5s;
+            }
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display: inline-block;
+              p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                span{
+                  font-family: "Cinzel Decorative";
+                  font-size: 12px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+              &:last-child{
+                float: right;
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*end Room details*/

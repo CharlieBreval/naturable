@@ -1,0 +1,57 @@
+/*shortcode buttons*/
+.vk-shortcode-button{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../images/08_01_buttons/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+.vk-shortcode-buttons-body{
+  padding: 100px 0;
+  background: #f9f9f9;
+  .vk-btn{
+    width: 100%;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+  }
+  h2{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 60px;
+  }
+  a{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.vk-shortcode-small-buttons{
+  margin-bottom: 100px;
+  .vk-btn{
+    width: 100%;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+.vk-shortcode-medium-button{
+  margin-bottom: 100px;
+}
+/*end shortcode buttons*/

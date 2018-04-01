@@ -1,0 +1,103 @@
+/*Reservation breakcrumb*/
+.vk-select-room-breakcrumb{
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+  .breadcrumb {
+    padding: 0px;
+    background: transparent;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 0px;
+  }
+  ul{
+    padding: 0px;
+    margin-bottom: 50px;
+    li{
+      display: table-cell;
+      vertical-align: top;
+      width: 1%;
+      position: relative;
+      border-right: 1px solid #ffffff;
+      a{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.88;
+        text-align: left;
+        color: #7b7b7b;
+        text-decoration: none;
+        padding: 10px 0 10px 45px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background-color: #f0f0f0;
+        text-transform: capitalize;
+      }
+      span{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        border-radius: 100px;
+        background: #f0f0f0;
+        border: 1px solid #ffffff;
+        z-index: 2;
+        position: absolute;
+        left: -16px;
+        top: 8px;
+        text-align: center;
+        i{
+          font-family: FontAwesome;
+          font-size: 16px;
+          text-align: center;
+          color: #7b7b7b;
+        }
+      }
+      &.completed{
+        background: #62b043;
+        a{
+          background: #62b043;
+          color: #ffffff;
+        }
+      }
+      &.active{
+        //background: #62b043;
+        a{
+          //background: #62b043;
+          //color: #ffffff;
+        }
+        span{
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          display: inline-block;
+          border-radius: 100px;
+          background: #62b043;
+          border: 1px solid #f0f0f0;
+          z-index: 2;
+          position: absolute;
+          left: -16px;
+          top: 8px;
+          text-align: center;
+          i{
+            font-family: FontAwesome;
+            font-size: 16px;
+            text-align: center;
+            color: #f9f9f9;
+          }
+        }
+      }
+      &:before{
+        padding: 0px;
+      }
+    }
+  }
+  .breadcrumb>li+li:before{
+    color: #ccc;
+    content: "";
+  }
+}
+/*end Reservation breakcrumb*/

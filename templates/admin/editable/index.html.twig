@@ -1,0 +1,38 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}Editable index{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>AccessKey</th>
+                        <th>Content</th>
+                        <th>actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for editable in editables %}
+                    <tr>
+                        <td>{{ editable.id }}</td>
+                        <td>{{ editable.accessKey }}</td>
+                        <td>{{ editable.content }}</td>
+                        <td>
+                            <a href="{{ path('admin_editable_edit', {'id': editable.id}) }}" class="btn btn-info">Editer</a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="4">no records found</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+            <a href="{{ path('admin_editable_new') }}" class="btn btn-info">Créer une nouvelle clé</a>
+        </div>
+    </div>
+{% endblock %}

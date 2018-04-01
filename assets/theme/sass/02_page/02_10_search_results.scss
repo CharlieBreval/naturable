@@ -1,0 +1,90 @@
+/*Pgae Search Results*/
+.vk-search-results{
+  .site-header{
+    background: #f9f9f9;
+  }
+  .vk-main-menu .wrapper-logo{
+    padding-top: 20px;
+  }
+  .ui.selection.dropdown{
+    background: transparent !important;
+  }
+}
+.vk-search-results-header{
+  background-color: #ffffff;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #222222;
+    margin: 0px;
+    padding: 60px 0;
+    @media screen and (max-width: 767px) {
+      padding: 30px 0;
+      font-size: 29px;
+      line-height: 1.6;
+    }
+    span{
+      color: #62b043;
+    }
+  }
+}
+.vk-search-results-body{
+  padding-top: 82px;
+  padding-bottom: 100px;
+  background: #f9f9f9;
+  .vk-search-results-body-left{
+    .vk-search-left-item{
+      margin-bottom: 30px;
+      padding: 30px;
+      background-color: #ffffff;
+      transition: all 0.5s;
+      h2{
+        margin: 0;
+        a{
+          font-family: "Playfair Display", serif;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 1.25;
+          text-align: left;
+          color: #333333;
+          margin: 0px;
+          transition: all 0.4s;
+          &:hover{
+            color: #62b043;
+            transition: all 0.4s;
+          }
+        }
+      }
+      .post-meta{
+        margin-top: 17px;
+        margin-bottom: 18px;
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          text-align: left;
+          color: #7b7b7b;
+          margin-right: 15px;
+          i{
+            font-family: FontAwesome;
+            color: #62b043;
+          }
+        }
+      }
+      .post-description{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #7b7b7b;
+      }
+      &:hover{
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+/*End Page Search results*/

@@ -1,0 +1,71 @@
+/*about count number*/
+.vk-about-count-number{
+    //background:url("../images/02_01_about/backcout.jpg");
+    //background-size: container;
+  position: relative;
+  height: 550px;
+  @media screen and (max-width: 991px) {
+    height:auto;
+  }
+  .vk-paralax-bg{
+    padding: 20px;
+    background:url("../../theme/images/02_01_about/backcout.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .vk-sparta-image-border{
+    border: 10px solid #fff;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 991px) {
+      height:auto;
+      padding: 50px 0;
+    }
+  }
+
+    .vk-sparta-count-item{
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+
+        }
+      }
+      .vk-sparta-count-item-img{
+        width: 100%;
+        img{
+          margin: auto;
+        }
+      }
+      .vk-sparta-count-item-number{
+        margin-top: 50px;
+        margin-bottom: 42px;
+        text-align: center;
+        span{
+          font-family: "Raleway", sans-serif;
+          font-size: 80px;
+          font-weight: bold;
+          line-height: 0.33;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.44;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+}
+/*End about count number*/

@@ -1,0 +1,266 @@
+/*Home center logo 2 header*/
+.vk-sparta-center-logo-2{
+  position:  relative;
+  overflow: hidden;
+  .ui.selection.dropdown{
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #7b7b7b;
+    padding-top: 20px;
+  }
+  .ui.dropdown .menu > .item{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.31;
+    text-align: center;
+    color: #7b7b7b;
+  }
+  .vk-top-header{
+    @media screen and (min-width:992px) {
+      display: none;
+    }
+  }
+  .sticky-wrapper{
+    height: auto !important;
+  }
+  .is-sticky{
+    .vk-divider{
+      display: none;
+    }
+    .navbar-brand{
+      padding: 10px;
+      img{
+        height: 80px;
+        width: 74px;
+        overflow: hidden;
+      }
+    }
+    .main-navigation{
+      ul{
+        li{
+          padding: 0 !important;
+          a{
+            padding: 35px 10px;
+            @media screen and (max-width: 1199px) and (min-width: 992px) {
+              padding: 37px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-navigation{
+    float: none;
+    ul{
+      li{
+        padding-bottom: 0px;
+        padding-top: 67px;
+        padding-left: 0;
+        padding-right: 0;
+        ul{
+          &.sub-menu1{
+            li{
+              a{
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .vk-main-menu {
+    .show-hover-shortcodes{
+      top: 0;
+      ul{
+        li{
+          padding: 0px;
+        }
+      }
+    }
+    .box-search-header{
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+  .mobile-nav .navbar-toggle{
+    top: 100px;
+  }
+  .site-header{
+    background: #fff;
+  }
+  .navbar-header{
+   background: transparent;
+  }
+  .navbar-brand{
+    height:auto;
+    padding: 20px;
+  }
+  .vk-navbar-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 230px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 23;
+    border: none;
+    @media screen and (max-width: 991px) {
+      position: inherit;
+      margin: 0px;
+      width: 170px;
+    }
+    .vk-divider{
+      position: absolute;
+      width: 198%;
+      top: 85px;
+      border-top-width: 1px;
+      border-bottom-width: 0;
+      border-left-width: 0;
+      border-right-width: 0;
+      border-style: solid;
+      overflow: hidden;
+      &.left{
+        right:100%;
+      }
+      &.right{
+        left: 100%;
+      }
+    }
+  }
+  .vk-navbar-left{
+    float: left;
+  }
+  .vk-navbar-right{
+    float: right;
+    .vk-icon-search{
+      line-height: 102px;
+    }
+  }
+  .vk-navbar-nav{
+    padding-left: 0px;
+    li{
+      position: static;
+      width: auto;
+      display: inline-block;
+      border: none;
+      a{
+        font-weight: 600;
+        padding: 55px 10px 37px 10px;
+        text-decoration: none;
+        font-family: "Cinzel Decorative";
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: left;
+        color: #7b7b7b;
+        &:not(.slicknav_item){
+          padding: 55px 15px 37px 15px;
+          outline: none;
+          display: block;
+          @media screen and (max-width: 1199px) and (min-width: 992px) {
+            padding: 59px 15px 37px 15px;
+          }
+        }
+      }
+      span{
+        &:not(.slicknav_item){
+          color: #fff;
+          font-weight: 600;
+          padding: 55px 10px 37px 10px;
+        }
+      }
+    }
+    &.child{
+      border-top: 3px solid #FFC000;
+      background-color: #fff;
+      display: none;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+  .vk-header-top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    .content{
+      position: relative;
+      padding: 18px 0;
+      float: left;
+      width: 100%;
+    }
+    .quick-address {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      float: right;
+      line-height: normal;
+      li{
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 2.31;
+        text-align: center;
+        color: #7b7b7b;
+        &:last-child{
+          a{
+            color: #fff;
+          }
+        }
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 2.31;
+          text-align: center;
+          color: #7b7b7b;
+          background: #62b043;
+          padding: 17px 24px;
+          text-decoration: none;
+          transition: all 0.5s;
+          &:hover{
+            background: #333;
+            transition: all 0.5s;
+          }
+        }
+      }
+      /*select */
+      .wrap-select{
+        .wrapper-dropdown-3{
+          ul{
+            margin-top: 8px;
+            li{
+              padding: 0px;
+              background: transparent;
+              a{
+                background: transparent;
+                color: #62b043;
+                padding: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .vk-navbar-left {
+      float: left;
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 2.14;
+        text-align: left;
+        color: #7b7b7b;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+/*Home center logo 2 header*/

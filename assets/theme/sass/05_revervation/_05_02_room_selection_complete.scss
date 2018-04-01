@@ -1,0 +1,182 @@
+/*Reservation room selection complete*/
+
+.vk-room-select-complete{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/04_01_room_list/background.jpg") no-repeat !important;
+          background-size: contain;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-room-select-complete-content{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .vk-select-room-breakcrumb{
+    @media screen and (max-width: 991px){
+      display: none;
+    }
+    ul{
+      li{
+        &.active {
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-room-select-complete-info{
+    .vk-room-select-complete-left{
+      background: #fff;
+      padding: 80px;
+      @media screen and (max-width: 991px) {
+        padding: 60px 20px;
+        margin-bottom: 60px;
+      }
+
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: center;
+        color: #333333;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        line-height: 1.88;
+        text-align: center;
+        color: #7b7b7b;
+      }
+      h4{
+        text-align: center;
+        margin-top: 40px;
+        a{
+          font-family: "Raleway", sans-serif;
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 2.31;
+          text-align: center;
+          color: #ffffff;
+          padding: 20px 34px;
+          border: 1px solid #62b043;
+          background:  #62b043;
+          transition: all 0.5s;
+          text-transform: uppercase;
+          &:hover{
+            background: #ffffff;
+            color: #62b043;
+            transition: all 0.5s;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .vk-room-select-complete-right{
+      .vk-room-details-content-right{
+        .vk-select-room1{
+          margin-top: 28px;
+          h2{
+            font-family: "Playfair Display", serif;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.67;
+            color: #ffffff;
+            margin: 0px;
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display:inline-block;
+              padding-right: 20px;
+
+              font-family: "Raleway", sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 2.14;
+              text-align: left;
+              color: #fefefe;
+              a{
+                font-family: "Raleway", sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 2.14;
+                text-align: left;
+                font-style: italic;
+                color: #fefefe;
+                border-bottom: 1px solid #ffffff;
+                text-decoration: none;
+                transition: all 0.5s;
+                &:hover{
+                  border-bottom: none;
+                  transition: all 0.5s;
+                }
+              }
+            }
+          }
+        }
+        .vk-select-room2{
+          margin-top: 40px;
+          margin-bottom: 40px;
+          h2{
+            font-family: "Playfair Display", serif;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.67;
+            color: #ffffff;
+            margin: 0px;
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display:inline-block;
+              padding-right: 20px;
+
+              font-family: "Raleway", sans-serif;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 2.14;
+              text-align: left;
+              color: #fefefe;
+              a{
+                font-family: "Raleway", sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 2.14;
+                text-align: left;
+                font-style: italic;
+                color: #fefefe;
+                border-bottom: 1px solid #ffffff;
+                text-decoration: none;
+                transition: all 0.5s;
+                &:hover{
+                  border-bottom: none;
+                  transition: all 0.5s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*end Reservation room selection complete*/

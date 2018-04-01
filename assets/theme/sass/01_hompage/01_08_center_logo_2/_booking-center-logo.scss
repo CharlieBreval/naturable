@@ -1,0 +1,26 @@
+/*Home center logo 2 booking hotel*/
+.vk-center-logo-2-slide{
+  .vk-booking-transparent-2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 930px !important;
+    padding: 0 10px;
+    @media screen and (max-width: 1199px) and (min-width: 992px) {
+      min-height: 600px !important;
+      padding: 40px 20px;
+    }
+  }
+  .vk-transparent-2-left{
+    padding-top: 250px;
+  }
+  .vk-booking-head{
+    @media screen and (max-width: 991px) {
+      padding-top: 60px;
+    }
+    h2{
+      font-size: 30px;
+      margin: 0px;
+      text-align: center;
+    }
+  }
+}
+/*End Home center logo 2 booking hotel*/

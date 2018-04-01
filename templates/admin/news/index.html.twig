@@ -1,0 +1,40 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}News index{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <table class="table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Titre</th>
+                        <th>Date</th>
+                        <th>Image</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for news in news %}
+                    <tr>
+                        <td>{{ news.id }}</td>
+                        <td>{{ news.title }}</td>
+                        <td>{{ news.createdAt ? news.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                        <td>{{ news.image }}</td>
+                        <td>
+                            <a class="btn btn-info" href="{{ path('admin_news_edit', {'id': news.id}) }}">Editer</a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="7">no records found</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <a class="btn btn-info" href="{{ path('admin_news_new') }}">Créer une actualité</a>
+        </div>
+    </div>
+
+{% endblock %}

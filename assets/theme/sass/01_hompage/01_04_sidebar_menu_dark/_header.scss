@@ -1,0 +1,107 @@
+/*Home sidebar menu dark header*/
+.vk-sparta-menu-left-dark{
+  overflow: hidden;
+  .container{
+    @media screen and (max-width: 1546px) and (min-width: 992px) {
+        width: 100%;
+    }
+  }
+  .vk-top-header {
+    .vk-top-header-right {
+      ul {
+        li{
+          &:last-child {
+            a{
+              @media screen and (max-width: 991px) {
+                padding: 13px 0 !important;}
+            }
+          }
+        }
+      }
+    }
+  }
+  #dropdown{
+    ul{
+      li{
+        a{
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    }
+  }
+  .ui.selection.dropdown{
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #7b7b7b;
+  }
+  .ui.dropdown .menu > .item{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.31;
+    text-align: center;
+    color: #7b7b7b;
+  }
+  .vk-top-header{
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+  }
+  .vk-navbar {
+    background: url("../images/01_04_sidebar_menu_dark/background2.jpg");
+    &::-webkit-scrollbar
+    {
+      width: 5px;
+      background-color: #000;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #62b043;
+      //border: 2px solid #555555;
+    }
+    &.navbar{
+      border: none;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .navbar-nav{
+      li{
+        border-bottom: 1px solid #222222;
+        ul{
+          li{
+            &:last-child{
+              border-bottom:  none;
+            }
+          }
+        }
+      }
+    }
+    .vk-sidebar-menu-left-address{
+      border-bottom: 1px solid #222222;
+    }
+    .navbar-header{
+     border-bottom: 1px solid #222222;
+      @media screen and (max-width: 991px) {
+        border-bottom: none;
+      }
+    }
+  }
+  .side-body{
+   @media screen and (max-width: 991px) and (min-width: 768px) {
+     margin-top: 0px;
+   }
+  }
+  .panel{
+    background: transparent;
+  }
+  .vk-menu-mobile-nav.mobile-menu-container .menu-mobile-nav{
+    top: 75px;
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+      top: 110px !important;
+    }
+  }
+}
+/*Home sidebar menu dark header*/

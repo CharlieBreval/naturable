@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+{% block body_class %}news-show{% endblock %}
+{% block body %}
+    <div class="vk-post-details">
+
+
+        <!--BENGIN CONTENT HEADER-->
+        <section class="site-content-area">
+            <div class="vk-posts-details-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="vk-posts-details-body-left">
+                                <div class="vk-posts-details-left-img">
+                                    <img src="{{ asset(news.bigImage) }}" alt="" class="img-responsive">
+                                </div>
+                                <div class="vk-posts-details-left-title">
+                                    <div class="vk-events-lists-item-right">
+                                        <div class="vk-events-item-right-header">
+                                            <div class="vk-event-item-time">
+                                                <ul class="vk-event-item-time-sub">
+                                                    <li>
+                                                        <span>{{ news.createdAt.format('d')}}</span>
+                                                    </li>
+                                                    <li>
+                                                        <span>{{ news.createdAt.format('M') }}</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="vk-event-item-info">
+                                                <h1>{{ news.title }}</h1>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+
+                                <div class="vk-posts-details-left-text">
+                                    {{ news.text|raw }}
+                                </div>
+
+                                <div class="vk-posts-details-left-share">
+                                    <p>
+                                        <span>Share: </span>
+                                        <span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                                        <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                                        <span><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
+                                        <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                                        <span><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END CONTENT ABOUT-->
+    </div>
+{% endblock %}

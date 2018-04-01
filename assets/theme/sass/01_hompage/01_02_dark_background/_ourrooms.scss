@@ -1,0 +1,240 @@
+/*Home dark background ourrooms*/
+.vk-sparta-dark-our-rooms{
+  background: url("../images/01_02_dark_background/our-room/background3.jpg") no-repeat fixed;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+  @media screen and (max-width: 991px) {
+    height: auto;
+  }
+  .item{
+    background: #fff;
+    @media screen and (max-width: 767px) {
+      margin: 0 20px;
+    }
+    .vk-dark-our-room-item-img{
+      img{
+        width: 100%;
+        height:auto;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+      &:hover{
+        img{
+          opacity: 0.8;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+  .vk-sparta-head-title{
+    h3{
+      margin: 0;
+    }
+    h2{
+      color: #fff !important;
+    }
+  }
+
+  .vk-dark-our-room-item-right{
+    padding:0 30px;
+    .vk-dark-our-room-item-content{
+      h3{
+        margin-top: 38px;
+        margin-bottom: 0px;
+        @media screen and (max-width: 1199px) and (min-width: 991px) {
+          margin-top: 20px;
+        }
+        a{
+          font-family: 'Playfair Display', serif;
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 1.07;
+          text-align: left;
+          transition: all 0.5s;
+          color: #333333;
+          &:hover{
+            color: #62b043;
+            transition: all 0.5s;
+          }
+        }
+      }
+      ul{
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 26px;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          padding: 10px 0;
+        }
+        li{
+          list-style-type: none;
+          p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            line-height: 2.86;
+            text-align: left;
+            color: #333333;
+            font-weight: bold;
+            margin: 0;
+            span{
+              font-weight: normal;
+              color:#7b7b7b  ;
+            }
+            i{
+              margin-right: 10px;
+            }
+          }
+
+        }
+      }
+      .vk-dark-our-room-item-book{
+        border-top: 1px solid #f0f0f0 ;
+        padding: 20px 0;
+        @media screen and (max-width: 1199px) and (min-width: 991px) {
+          padding: 14px 0;
+        }
+        .vk-dark-our-room-item-book-left{
+          float: left;
+          ul{
+            margin: 0;
+            padding: 0;
+            li{
+              list-style-type: none;
+              display: inline-block;
+              p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                span{
+                  font-family: "Cinzel Decorative";
+                  font-size: 12px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+              &:last-child{
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+        .vk-dark-our-room-item-book-right{
+          float: right;
+          a{
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 2.31;
+            text-align: left;
+            color: #333333;
+            text-decoration: none;
+            &:hover{
+              color: #62b043;
+            }
+          }
+        }
+      }
+    }
+  }
+  .owl-nav{
+    .owl-prev{
+      position: absolute;
+      left: -6% !important;
+      top: 45% !important;
+      transform: translateY(-50%);
+      border-radius: 50px;
+      padding: 0;
+      @media screen and (max-width: 1100px) and (min-width: 992px) {
+        left: 40% !important;
+        top: 87% !important;
+      }
+      @media screen and (max-width: 1299px) and (min-width: 1200px) {
+        left: 40% !important;
+        top: 87% !important;
+      }
+      @media screen and (max-width: 991px) {
+        display: none !important;
+      }
+      &:after{
+        content: "\f177";
+        display: block;
+        color: rgba(224, 224, 224, 0.2);
+        font-family: FontAwesome;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 1;
+        text-align: left;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+    .owl-next{
+      background: white;
+      border-radius: 50px;
+      position: absolute;
+      right: -6% !important;
+      top: 45% !important;
+      transform: translateY(-50%);
+      color: rgba(0, 0, 0, 0.8);
+      padding: 0;
+      @media screen and (max-width: 1100px) and (min-width: 992px) {
+        right: 40% !important;
+        top: 87% !important;
+      }
+      @media screen and (max-width: 1299px) and (min-width: 1200px) {
+        right: 40% !important;
+        top: 87% !important;
+      }
+      @media screen and (max-width: 991px) {
+        display: none !important;
+      }
+      &:after{
+        content: "\f178";
+        display: block;
+        font-family: FontAwesome;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 1;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.2);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .owl-theme .owl-nav [class*=owl-]{
+    background: transparent;
+    &:hover{
+      background: transparent;
+      text-decoration: none;
+      &:after{
+        color: white;
+      }
+    }
+  }
+  .owl-dots{
+    margin-top: 55px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #62b043;
+  }
+}
+/*End home dark background ourrooms*/

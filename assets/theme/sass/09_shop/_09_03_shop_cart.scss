@@ -1,0 +1,551 @@
+.vk-shop-cart{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../images/09_01_shop/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+.vk-shop-cart-body{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .vk-shop-cart4{
+    .vk-shop-cart-form{
+      background: #ffffff;
+      padding: 0 30px;
+      padding-bottom: 30px;
+    }
+    th{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.14;
+      text-align: left;
+      color: #333333;
+      font-style: normal;
+      text-transform: capitalize;
+      padding: 20px 0;
+      border-bottom: 2px solid #777 !important;
+    }
+    tr{
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #DDD !important;
+      &:hover{
+        background: none !important;
+      }
+      img{
+        width: 90px;
+        height: 90px;
+        float: left;
+        margin-right: 20px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600 !important;
+        font-style: normal;
+        font-size: 14px;
+        color: #777777;
+        line-height: 105px;
+        margin: 0px;
+        a{
+          color: #333;
+          text-decoration: none;
+        }
+      }
+      td{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600 !important;
+        font-style: normal;
+        font-size: 14px;
+        color: #777777;
+        text-indent: -10px;
+        .price{
+          line-height: 105px;
+        }
+        .vk-shop2-slide1-details-count{
+          width: 120px;
+          height: 44px;
+          border: 1px solid #bbbbbb;
+          border-radius: 3px;
+          line-height: 42px;
+          text-align: center;
+          font-size: 14px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #bbbbbb;
+          margin-top: 30.5px;
+          text-indent: 0px;
+          margin-left: -10px;
+          .vk-shop2-slide1-details-minus{
+            float: left;
+            margin-left: 10px;
+            cursor: pointer;
+            text-indent: 0px;
+          }
+          .vk-shop2-slide1-details-number{
+            font-size: 18px;
+            color: #777;
+            text-indent: 0px;
+          }
+          .vk-shop2-slide1-details-plus{
+            float: right;
+            margin-right: 10px;
+            cursor: pointer;
+            text-indent: 0px;
+          }
+        }
+        .del{
+          line-height: 105px;
+          font-size: 18px;
+          a{
+            color: #62b043;
+            text-decoration: none;
+            &:hover{
+              color: #333;
+            }
+          }
+        }
+
+
+        ul{
+          width: 120px;
+          height: 44px;
+          border: 1px solid #bbbbbb;
+          border-radius: 3px;
+          line-height: 42px;
+          text-align: center;
+          font-size: 14px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #bbbbbb;
+          margin-top: 32px;
+          margin-left: -10px;
+          li{
+            width: auto;
+          }
+          li:nth-child(1){
+            float: left;
+            margin-left: 25px;
+            cursor: pointer;
+          }
+          li:nth-child(2){
+            margin-left: 40px;
+          }
+          li:nth-child(3){
+            float: right;
+            margin-right: 6px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .sub-cart{
+      .coupon-code{
+        float: left;
+        input{
+          width: 300px;
+          height: 50px;
+          border: 1px solid #f0f0f0;
+          color: #aeaeae;
+          font-size: 14px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          text-indent: 15px;
+        }
+        button{
+          width: 180px;
+          height: 50px;
+          background: #62b043;
+          outline: none;
+          text-align: center;
+          line-height: 42px;
+          color: #ffffff;
+          transition: all 0.5s;
+          margin-top: 1px;
+          border: 1px solid transparent;
+          font-family: "Raleway", sans-serif;
+          font-weight: 700!important;
+          font-style: normal;
+          &:hover{
+            background: none;
+            border: 1px solid #62b043;
+            color: #62b043;
+          }
+        }
+      }
+    }
+
+    .upload-cart{
+      width: 180px;
+      height: 50px;
+      background: #62b043;
+      border: 1px solid #62b043;
+      outline: none;
+      text-align: center;
+      line-height: 44px;
+      color: #fff;
+      float: right;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700!important;
+      font-style: normal;
+      transition: all 0.5s;
+      &:hover{
+        background: none;
+        border: 1px solid #62b043;
+        color: #62b043;
+      }
+    }
+
+    .sp-quantity{
+      width: 120px;
+      height: 44px;
+      border: 1px solid #f0f0f0;
+      line-height: 42px;
+      text-align: center;
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: #bbbbbb;
+      margin-top: 32px;
+      margin-left: -10px;
+      position: relative;
+      overflow: hidden;
+      .sp-minus a{
+        position: absolute;
+        width: 38px;
+        height: 42px;
+        //display: block;
+        margin-left: 0px;
+        float: left;
+        text-align: center;
+        line-height: 38px;
+        font-size: 14px;
+        color: #777;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width: 991px) {
+          bottom: 0;
+          right: -6px;
+          z-index: 123;
+        }
+        span{
+          display: none;
+        }
+
+      }
+      .sp-plus a{
+        position: absolute;
+        width: 39px;
+        height: 42px;
+        //display: block;
+        margin-right: 13px;
+        float: right;
+        margin-left: 88px;
+        text-align: center;
+        line-height: 42px;
+        font-size: 14px;
+        color: #777;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width: 991px) {
+          right: -36%;
+        }
+        span{
+          display: none;
+        }
+      }
+      .sp-input{
+        float: left;
+        input{
+          width: 40px;
+          position: absolute;
+          margin-top: 0px;
+          border: none;
+          outline: none;
+          margin-left: 40px;
+          text-align: center;
+          background: none;
+          top: 10px;
+          @media screen and (max-width: 991px) {
+            height: 120px;
+            width: 50px;
+          }
+        }
+      }
+    }
+
+    .shipping{
+      background: #ffffff;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      @media screen and (max-width:  991px){
+        margin-bottom: 60px;
+      }
+      h3{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700 !important;
+        font-style: normal;
+        color: #333;
+        margin: 0;
+        border-bottom: 2px solid #7b7b7b;
+        padding-bottom: 12px;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: left;
+        color: #7b7b7b;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 26px;
+        margin-bottom: 20px;
+      }
+      select{
+        width: 100%;
+        height: 43px;
+        border-radius: 3px;
+        border: 1px solid #eaeaea;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500 !important;
+        font-style: normal;
+        font-size: 14px;
+        color: #333;
+        text-indent: 15px;
+      }
+      input{
+        @extend select;
+        color: #aeaeae;
+        margin-top: 20px;
+      }
+      .border-line{
+        width: 100%;
+        height: 2px;
+        background: #777;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      span{
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700 !important;
+        font-style: normal;
+        color: #333;
+        line-height: 40px;
+      }
+      button{
+        width: 180px;
+        height: 50px;
+        background: #62b043;
+        border: 1px solid #62b043;
+        outline: none;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700 !important;
+        font-style: normal;
+        line-height: 44px;
+        color: #fff;
+        float: right;
+        transition: all 0.5s;
+
+        &:hover{
+          background: none;
+          border: 1px solid #62b043;
+          color: #62b043;
+        }
+      }
+    }
+
+    .vk-shop-cart-ship-total{
+      margin-top: 60px;
+    }
+
+    .cart-totals{
+      background: #ffffff;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      h3{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700 !important;
+        font-style: normal;
+        color: #333;
+        margin: 0;
+        border-bottom: 2px solid #7b7b7b;
+        padding-bottom: 12px;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        li{
+          list-style-type: none;
+          width: 100%;
+          font-size: 14px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 600 !important;
+          font-style: normal;
+          color: #777;
+          border-bottom: 1px solid #eaeaea;
+          margin-top: 16px;
+          padding-bottom: 17px;
+          strong{
+            font-weight: 600;
+            width: 300px;
+            height: 10px;
+            display: block;
+            float: left;
+            @media screen and (max-width: 991px) {
+              width: 73%;
+              height:auto;
+              float: left;
+            }
+          }
+        }
+        li:nth-child(1){
+          margin-top: 5px;
+        }
+      }
+      button{
+        width: 100%;
+        height: 50px;
+        background: #62b043;
+        border: 1px solid #62b043;
+        outline: none;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700 !important;
+        font-style: normal;
+        line-height: 44px;
+        color: #ffffff;
+        float: right;
+        margin-top: 30px;
+        transition: all 0.5s;
+
+        &:hover{
+          background: none;
+          border: 1px solid #62b043;
+          color: #62b043;
+        }
+      }
+    }
+    .th-hide{
+      display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 1199px){
+    .vk-shop-cart4{
+      .shipping{
+        width: 100%;
+      }
+      .cart-totals{
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 991px){
+    .th-hide{
+      display: block !important;
+      margin-top: 21px;
+    }
+    .vk-shop-cart4{
+      margin-top: 48px;
+      padding-bottom: 60px;
+      .price-hide{
+        display: none;
+      }
+      .del-hide{
+        display: none;
+      }
+      .sp-quantity{
+        width: 50px !important;
+        height: 120px;
+        margin-top: 8px;
+      }
+      .price{
+        line-height: 140px !important;
+      }
+      input{
+        width: 44px;
+        margin-left: 2px !important;
+      }
+      tr img{
+        float: none;
+        margin-left: -5px;
+      }
+      a{
+        margin-left: 5px;
+      }
+      .sub-cart button{
+        margin-left: 4px;
+      }
+      .h3-a{
+        margin-top: -40px;
+        padding-bottom: 0px !important;
+        margin-bottom: -36px;
+      }
+
+      .w-td{
+        width: 80% !important;
+      }
+    }
+
+    .vk-shop-cart4 .shipping button{
+      margin-bottom: 40px;
+    }
+    .sub-cart{
+      width: 100%;
+    }
+    .vk-shop-cart4 .sub-cart .coupon-code{
+      width: 100%;
+    }
+    .vk-shop-cart4 .sub-cart .coupon-code input{
+      width: 100%;
+    }
+    .vk-shop-cart4 .sub-cart .coupon-code button{
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 2px;
+    }
+    .vk-shop-cart4 .upload-cart{
+      width: 100%;
+      margin-right: -2px;
+    }
+    .vk-shop-cart4 .shipping button{
+      width: 100%;
+    }
+  }
+}

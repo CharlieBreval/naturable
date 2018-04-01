@@ -1,0 +1,133 @@
+/*Home default element Blog*/
+.vk-sparta-home-blog {
+  background: #f9f9f9;
+  padding-top: 99px; }
+
+.vk-sparta-home-blog {
+  padding-bottom: 100px; }
+  @media screen and (max-width: 767px) {
+    .vk-sparta-home-blog {
+      padding-bottom: 60px; } }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content:hover {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content:hover .vk-item-img img {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content:hover .vk-item-text h2 a {
+      color: #b0914f;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-img {
+    position: relative;
+    overflow: hidden; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-img img {
+      width: 100%;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-text {
+    padding: 30px;
+    background-color: #ffffff; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-text h2 {
+      border-bottom: 1px solid #f0f0f0;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      line-height: 0px; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-text h2 a {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.44;
+        text-align: left;
+        color: #333333;
+        text-decoration: none;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content .item .vk-sparta-item-blog-content .vk-item-text .time {
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 2.14;
+      text-align: left;
+      color: #aeaeae; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content .owl-theme .owl-dots .owl-dot.active span, .vk-sparta-home-blog .vk-sparta-home-blog-content .owl-theme .owl-dots .owl-dot:hover span {
+    background: #b0914f; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 40px; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item {
+    margin-bottom: 30px; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content:hover {
+      -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content:hover .vk-item-img img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content:hover .vk-item-text h2 a {
+        color: #b0914f;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-img {
+      position: relative;
+      overflow: hidden; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-img img {
+        width: 100%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-text {
+      padding: 30px;
+      background-color: #ffffff; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-text h2 {
+        border-bottom: 1px solid #f0f0f0;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        line-height: 0px; }
+        .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-text h2 a {
+          font-family: 'Playfair Display', serif;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 1.44;
+          text-align: left;
+          color: #333333;
+          text-decoration: none;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+      .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile .item .vk-sparta-item-blog-content .vk-item-text .time {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 2.14;
+        text-align: left;
+        color: #aeaeae; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile {
+    display: none; }
+  .vk-sparta-home-blog .vk-sparta-home-blog-content-destop {
+    display: block; }
+  @media screen and (max-width: 767px) {
+    .vk-sparta-home-blog .vk-sparta-home-blog-content-mobile {
+      display: block; }
+    .vk-sparta-home-blog .vk-sparta-home-blog-content-destop {
+      display: none; } }
+
+/*End Home default element Blog*/

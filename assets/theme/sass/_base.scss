@@ -1,0 +1,221 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*Base*/
+.vk-clear-padding{
+  padding: 0px;
+}
+a{
+  text-decoration: none !important;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.vk-btn{
+  width: 100%;
+  outline: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #aaa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 2px solid transparent;
+  min-height: 44px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.vk-btn-default{
+  background-color: #62b043;
+  &:hover{
+    background-color: transparent;
+    color: #62b043;
+    border-color: #62b043;
+  }
+  &:focus{
+    background-color: transparent;
+    color: #62b043;
+    border-color: #62b043;
+  }
+}
+.vk-btn-xs{
+  min-height: 36px;
+  font-size: 12px;
+  padding: 8px 20px;
+  &:hover{
+    border: 2px solid #62b043;
+    transition: all 0.5s;
+  }
+  &.vk-border-bottom{
+    transition:  all 0.5s;
+    &:hover{
+      &:after{
+        display: none;
+        transition:  all 0.5s;
+      }
+    }
+  }
+  &:focus{
+    border: 2px solid #62b043;
+    color: #62b043;
+    &.vk-border-bottom{
+        &:after{
+          display: none;
+        }
+    }
+  }
+}
+.vk-btn-transparent{
+ background-color: transparent;
+  color: #62b043 ;
+}
+.vk-border-brown{
+  border: 2px solid #62b043;
+  color: #62b043 ;
+  &:hover{
+    background-color: #62b043;
+    color: #fff;
+    border-color: transparent;
+  }
+  &:focus{
+    background-color: #62b043;
+    color: #fff;
+    border-color: transparent;
+  }
+}
+.vk-border-bottom{
+  border: none;
+  &:after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  &.vk-btn-default{
+    &:after{
+      background-color: #876b2f;
+    }
+  }
+}
+.vk-border-radius{
+  border-radius: 3px;
+}
+.vk-btn-l{
+  min-height: 50px !important;
+  padding: 13px 20px;
+  &:hover{
+    border: 2px solid #62b043;
+    transition: all 0.5s;
+  }
+  &.vk-border-bottom{
+    transition:  all 0.5s;
+    &:hover{
+      &:after{
+        display: none;
+        transition:  all 0.5s;
+      }
+    }
+    &:focus{
+      border: 2px solid #62b043;
+      color: #62b043;
+      &.vk-border-bottom{
+        &:after{
+          display: none;
+        }
+      }
+    }
+  }
+}
+.vk-btn-m{
+  min-height: 44px;
+  transition: all 0.5s;
+  &:hover{
+    border: 2px solid #62b043;
+    transition: all 0.5s;
+  }
+  &.vk-border-bottom{
+    transition:  all 0.5s;
+    &:hover{
+     &:after{
+       display: none;
+       transition:  all 0.5s;
+     }
+    }
+  }
+  &:focus{
+    border: 2px solid #62b043;
+    color: #62b043;
+    &.vk-border-bottom{
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+//back to top
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  .btn-totop{
+    background: #62b043;
+    border-color: #62b043;
+    color: #fff;
+  }
+  .btn{
+    border-radius: 0px;
+  }
+}
+/* End Base*/

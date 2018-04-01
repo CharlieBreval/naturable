@@ -1,0 +1,167 @@
+/*Home default element Blog*/
+.vk-sparta-home-blog{
+  background: #f9f9f9;
+  padding-top: 99px;
+}
+
+
+.vk-sparta-home-blog{
+  padding-bottom: 100px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 60px;
+  }
+  .vk-sparta-home-blog-content{
+    .item{
+      .vk-sparta-item-blog-content{
+        &:hover{
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+          transition: all 0.5s;
+          .vk-item-img{
+            img{
+              transform: scale(1.1);
+              transition: all 0.5s;
+
+            }
+          }
+          .vk-item-text{
+            h2{
+              a{
+                color: #62b043;
+                transition: all 0.5s;
+              }
+            }
+          }
+        }
+        .vk-item-img{
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            transition: all 0.5s;
+
+          }
+        }
+        .vk-item-text{
+          padding: 30px;
+          background-color: #ffffff;
+          //box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+          h2{
+            border-bottom: 1px solid #f0f0f0;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            line-height: 0;
+
+            a{
+              display:  block;
+              font-family: 'Playfair Display', serif;
+              font-size: 18px;
+              font-weight: bold;
+              line-height: 1.44;
+              text-align: left;
+              color: #333333;
+              text-decoration: none;
+              transition: all 0.5s;
+            }
+          }
+          .time{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2.14;
+            text-align: left;
+            color: #aeaeae;
+          }
+        }
+      }
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+      background: #62b043;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+      margin-top: 40px;
+    }
+  }
+  .vk-sparta-home-blog-content-mobile{
+    .item{
+      margin-bottom: 30px;
+      .vk-sparta-item-blog-content{
+        &:hover{
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+          transition: all 0.5s;
+          .vk-item-img{
+            img{
+              transform: scale(1.1);
+              transition: all 0.5s;
+
+            }
+          }
+          .vk-item-text{
+            h2{
+              a{
+                color: #62b043;
+                transition: all 0.5s;
+              }
+            }
+          }
+        }
+        .vk-item-img{
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            transition: all 0.5s;
+
+          }
+        }
+        .vk-item-text{
+          padding: 30px;
+          background-color: #ffffff;
+          //box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+          h2{
+            border-bottom: 1px solid #f0f0f0;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            line-height: 0px;
+
+            a{
+              font-family: 'Playfair Display', serif;
+              font-size: 18px;
+              font-weight: bold;
+              line-height: 1.44;
+              text-align: left;
+              color: #333333;
+              text-decoration: none;
+              transition: all 0.5s;
+            }
+          }
+          .time{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 2.14;
+            text-align: left;
+            color: #aeaeae;
+          }
+        }
+      }
+    }
+  }
+  .vk-sparta-home-blog-content-mobile{
+    display: none;
+  }
+  .vk-sparta-home-blog-content-destop{
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    .vk-sparta-home-blog-content-mobile{
+      display: block;
+    }
+    .vk-sparta-home-blog-content-destop{
+      display: none;
+    }
+  }
+}
+
+/*End Home default element Blog*/

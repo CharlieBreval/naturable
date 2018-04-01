@@ -1,0 +1,208 @@
+/*Home default element OurRoom*/
+.vk-our-room{
+  background: #f9f9f9;
+  padding-bottom: 150px ;
+  padding-top: 99px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 60px;
+  }
+  .vk-sparta-our-room{
+    .item{
+      background-color: #ffffff;
+      transition: all 0.5s;
+      .vk-sparta-item-content{
+        position: relative;
+        overflow: hidden;
+        &:hover{
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+          transition: all 0.5s;
+          .vk-item-img{
+            img{
+              transform: scale(1.1);
+              transition: all 0.5s;
+            }
+          }
+          .vk-item-text{
+            a{
+              color:#62b043 ;
+              transition:  all 0.5s;
+            }
+          }
+        }
+        .vk-item-img{
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            transition: all 0.5s;
+          }
+        }
+        .vk-item-text{
+          padding: 31px 20px;
+          h2{
+            margin-top: 0px;
+            margin-bottom: 26px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            a{
+              display:  block;
+              font-family: 'Playfair Display', serif;
+              font-size: 28px;
+              font-weight: bold;
+              line-height: 1.07;
+              text-align: left;
+              color: #333333;
+              text-decoration: none;
+              transition:  all 0.5s;
+            }
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display: inline-block;
+              p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                span{
+                  font-family: "Cinzel Decorative";
+                  font-size: 12px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+              &:last-child{
+                float: right;
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .owl-carousel .owl-dots.disabled{
+      display: block;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+      background: #62b043;
+    }
+  }
+
+  .vk-spartar-our-room-mobile{
+    .item{
+      margin-bottom: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      .vk-sparta-item-content{
+        position: relative;
+        overflow: hidden;
+        &:hover{
+          .vk-item-img{
+            img{
+              transform: scale(1.1);
+              transition: all 0.5s;
+            }
+          }
+          .vk-item-text{
+            a{
+              color:#62b043 ;
+              transition:  all 0.5s;
+            }
+          }
+        }
+        .vk-item-img{
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            transition: all 0.5s;
+          }
+        }
+        .vk-item-text{
+          padding: 31px 20px;
+          h2{
+            margin-top: 0px;
+            margin-bottom: 26px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            a{
+              font-family: 'Playfair Display', serif;
+              font-size: 28px;
+              font-weight: bold;
+              line-height: 1.07;
+              text-align: left;
+              color: #333333;
+              text-decoration: none;
+              transition:  all 0.5s;
+            }
+          }
+          ul{
+            margin: 0px;
+            padding: 0px;
+            li{
+              list-style-type: none;
+              display: inline-block;
+              p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.88;
+                text-align: left;
+                color: #7b7b7b;
+                span{
+                  font-family: "Cinzel Decorative";
+                  font-size: 12px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+              &:last-child{
+                float: right;
+                p{
+                  font-family: "Cinzel Decorative";
+                  font-size: 30px;
+                  font-weight: bold;
+                  line-height: 1;
+                  text-align: right;
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .vk-spartar-our-room-destop{
+    display: block;
+  }
+  .vk-spartar-our-room-mobile{
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    .vk-spartar-our-room-destop{
+      display: none;
+    }
+    .vk-spartar-our-room-mobile{
+      display: block;
+    }
+  }
+}
+
+/*End Home default element Ourroom*/

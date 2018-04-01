@@ -1,0 +1,47 @@
+/*Siderbar menu dark Ourrooms*/
+.vk-sparta-menu-left-dark{
+  .vk-sparta-dark-our-rooms{
+    .owl-nav{
+      @media screen and (max-width: 1650px) and (min-width: 1300px) {
+        display: none;
+      }
+    }
+    .item{
+      @media screen and (max-width: 767px) {
+        margin: 0px;
+      }
+    }
+  }
+  .vk-dark-our-room-item-left{
+    @media screen and (max-width: 1299px) and (min-width: 992px ) {
+      width: 100%;
+    }
+  }
+  .vk-dark-our-room-item-right{
+    @media screen and (max-width: 1299px) and (min-width: 992px ) {
+      width: 100%;
+    }
+    .vk-dark-our-room-item-content{
+      h3{
+        @media screen and (max-width: 1510px) and (min-width: 1300px) {
+          margin-top: 20px;
+        }
+      }
+      ul{
+        @media screen and (max-width: 1510px) and (min-width: 1300px) {
+          padding: 15px 0;
+        }
+        li{
+          p{
+            @media screen and (max-width: 1350px) and (min-width: 1300px) {
+              line-height: 2.4;
+            }
+          }
+        }
+      }
+      .vk-dark-our-room-item-book{
+
+      }
+    }
+  }
+}

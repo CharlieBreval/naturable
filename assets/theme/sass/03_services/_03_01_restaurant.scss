@@ -1,0 +1,321 @@
+/*Services Restaurent*/
+.vk-restaurant{
+  overflow: hidden;
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background-size: cover;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-restaurant-content{
+  .vk-restaurant-header{
+    h3{
+      font-family: "Cinzel Decorative";
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.14;
+      letter-spacing: 2.8px;
+      text-align: center;
+      color: #62b043;
+      margin-bottom: 5px;
+    }
+    h2{
+      font-family: "Playfair Display", serif;
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      color: #333333;
+      margin: 0;
+    }
+    .vk-restaurant-border{
+      width: 40px;
+      height: 3px;
+      background-color: #62b043;
+      margin: 0 auto;
+      margin-top: 33px;
+      margin-bottom: 59px;
+    }
+  }
+  .vk-restaurant-time-for-meals{
+    padding: 100px 0;
+    .vk-restaurant-time-text{
+      padding:0 135px;
+      @media screen and (max-width:  991px) {
+        padding: 0px 20px;
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: center;
+        color: #7b7b7b;
+      }
+    }
+    .vk-restaurant-authour{
+      margin-top: 37px;
+      margin-bottom: 103px;
+      p{
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: center;
+        color: #333333;
+        a{
+          color: #62b043;
+          text-decoration: none;
+        }
+      }
+    }
+    .vk-restaurant-delicious{
+      .vk-restaurant-item{
+        @media screen and (max-width: 991px) {
+          margin-bottom: 50px;
+        }
+        .vk-restaurant-delicious-img{
+          position: relative;
+          img{
+            width: 100%;
+          }
+          .vk-restaurant-cap{
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            .vk-restaurant-cap-box{
+              position: relative;
+              width: 80px;
+              height: 80px;
+              overflow: hidden;
+              .vk-box-cut{
+                position: absolute;
+                top: -27%;
+                left: 88px;
+                right: 0;
+                bottom: 0;
+                background: #fff;
+                opacity: 1;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s;
+                content: '';
+                width: 150%;
+                height: 87%;
+                -webkit-transform: rotate(-35deg);
+                -ms-transform: rotate(-35deg);
+                transform: rotate(-46deg) translateX(-94px) translateY(-24px);
+              }
+              .vk-restaurant-cap-text{
+                font-family: "Raleway", sans-serif;
+                font-size: 14px;
+                font-weight: 800;
+                line-height: 1.29;
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                transform: rotate(-45deg) translateX(28px) translateY(25px);
+                span{
+                  a{
+                    color: #333333;
+                  }
+                }
+              }
+            }
+            &:hover{
+              .vk-box-cut{
+               background: #62b043;
+              }
+              .vk-restaurant-cap-text{
+                span{
+                  a{
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+
+        }
+        .vk-restaurant-delicious-info{
+          text-align: center;
+          h2{
+            margin: 0;
+            a{
+              font-family: "Playfair Display", serif;
+              font-size: 30px;
+              font-weight: bold;
+              line-height: 1.71;
+              text-align: center;
+              color: #333333;
+              text-decoration: none;
+            }
+          }
+          .time{
+            font-family: "Playfair Display", serif;
+            font-size: 14px;
+            line-height: 0.8;
+            color: #62b043;
+            text-align: center;
+
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .vk-restaurant-everymeal-week{
+    //background: url("../images/03_01_restaurant/background1.jpg") no-repeat;
+    background-size: cover;
+    padding: 148px 0;
+    background-attachment: fixed;
+    @media screen and (max-width: 991px){
+      padding: 148px 20px;
+    }
+    .vk-restaurant-everymeal-week-icon{
+      img{
+        margin: 0 auto;
+      }
+    }
+    h3{
+      font-family: "Cinzel Decorative";
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.67;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 60px;
+      margin-bottom: 25px ;
+    }
+    h1{
+      font-family: "Playfair Display", serif;
+      font-size: 100px;
+      font-weight: 900;
+      text-align: center;
+      color: #ffffff;
+      @media screen and (max-width: 991px) {
+        font-size: 36px;
+      }
+    }
+    p{
+        font-family: "Raleway", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.25;
+        letter-spacing: 28.8px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 60px;
+        margin-bottom: 50px;
+      position: relative;
+        @media screen and (max-width: 991px) {
+          font-size: 14px;
+          letter-spacing: 16.8px;
+          margin-top: 40px;
+        }
+      .line-1{
+        width: 325px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        margin-bottom: 5px;
+        @media screen and (max-width: 991px) {
+          width: 180px;
+        }
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+      }
+      .line-2{
+        width: 325px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+        margin-top: 5px;
+        bottom: 0;
+        left: 34.4%;
+        @media screen and (max-width: 991px) {
+          width: 180px;
+        }
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          left:36.4%
+        }
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          left: 32.4%;
+        }
+      }
+    }
+    h4{
+      font-family: "Playfair Display", serif;
+      font-size: 100px;
+      font-weight: 900;
+      line-height: 0.3;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  .vk-restaurant-item-info{
+    @media screen and (max-width: 991px) {
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+
+  .vk-restaurant-about{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    .vk-restaurant-item-about{
+      margin-bottom: 60px;
+    }
+    img{
+      width:100%;
+    }
+    .vk-restaurant-about-item{
+      h4{
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        //line-height: 2.5;
+        letter-spacing: 2.4px;
+        text-align: left;
+        color: #62b043;
+        margin: 0px;
+      }
+      h3{
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: left;
+        color: #333333;
+        margin-top: 11px;
+        margin-bottom: 30px;
+
+      }
+      p{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        line-height: 2.14;
+        text-align: left;
+        color: #7b7b7b;
+      }
+    }
+  }
+}
+/*End Services Restaurent*/

@@ -1,0 +1,200 @@
+.vk-shop{
+  .vk-about-banner{
+    .vk-about-banner-destop{
+      .vk-banner-img{
+        background: url("../images/09_01_shop/background.jpg") no-repeat !important;
+        background-size: cover;
+        background-position: center center;
+        height: 393px;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+          height: 260px;
+        }
+      }
+    }
+  }
+}
+.vk-shop-body{
+  background: #f9f9f9;
+  padding: 100px 0;
+}
+.vk-shop1{
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      list-style-type: none;
+
+    }
+  }
+
+  .vk-shop1-product{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    //padding-bottom: 40px;
+    padding: 0px 0px 25px 0px;
+    &:hover{
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      a{
+        &.button-add-cart{
+          opacity: 1;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .vk-shop1-product-img{
+      overflow: hidden;
+      img{
+        //width: 100%;
+        //height: auto;
+        margin-top: 15px;
+
+        transition: all 0.5s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+    a{
+      text-decoration: none;
+    }
+    h3{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 1.86;
+      text-align: center;
+      color: #333333;
+      &:hover{
+        color:#62b043;
+      }
+    }
+    ul{
+      li{
+        display: inline-block;
+        width: auto;
+        color: #62b043;
+      }
+    }
+    p{
+      font-family: "Playfair Display", serif;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.64;
+      text-align: center;
+      color: #333333;
+      font-style: normal;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    .caption{
+      position: relative;
+    }
+    a{
+      &.button-add-cart{
+        display:  block;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 2.77;
+        text-align: center;
+        color: #ffffff;
+        padding: 13px 0;
+        background: #333;
+        position: absolute;
+        width: 100%;
+        bottom: -25px;
+        left: 0;
+        opacity: 0;
+        transition: all 0.5s;
+        border: 1px solid #333;
+        &:hover{
+          background: #62b043;
+          color: #fff;
+          border: 1px solid #62b043;
+        }
+      }
+    }
+  }
+
+  .pagi-grid2{
+    text-align: center;
+    margin-top: 80px;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 80px;
+      margin-top: 60px;
+    }
+    ul{
+      display: inline-block;
+    }
+  }
+
+  .vk-shop-select{
+    width: 100%;
+    height: auto;
+    float: left;
+    select{
+      width: 200px;
+      height: 50px;
+      border-radius: 0px;
+      outline: none;
+      border: 1px solid #f0f0f0;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 2.57;
+      text-align: left;
+      color: #7b7b7b;
+      font-weight: 400;
+      font-style: normal;
+      padding: 0 10px;
+      float:right;
+    }
+    span{
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 2.57;
+      text-align: left;
+      color: #7b7b7b;
+      float:left;
+      font-weight: 400;
+      font-style: normal
+    }
+  }
+}
+
+
+@media screen and (max-width:991px){
+  .vk-shop1{
+    .related-h2{
+      margin-top: 53px;
+    }
+    .list-career li:last-child{
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+@media screen  and (max-width: 767px){
+  .vk-shop1-md9{
+    margin-top: 30px;
+  }
+  .vk-shop1-md3{
+    margin-bottom: -20px;
+  }
+  .vk-shop1 .vk-shop-select span{
+    display: none;
+  }
+  .vk-shop1 .vk-shop-select select{
+    width: 100%;
+  }
+  .vk-shop1 .vk-shop-select{
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,47 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}Therapy index{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Catégorie</th>
+                    <th>Titre</th>
+                    <th>Sous-tite</th>
+                    <th>Crée le</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for therapy in therapies %}
+                <tr>
+                    <td>{{ therapy.id }}</td>
+                    <td>{{ therapy.category }}</td>
+                    <td>{{ therapy.title }}</td>
+                    <td>{{ therapy.subtitle }}</td>
+                    <td>{{ therapy.createdAt ? therapy.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                    <td>{{ therapy.image }}</td>
+                    <td>
+                        <a class="btn btn-info" href="{{ path('admin_therapy_edit', {'id': therapy.id}) }}">Editer</a>
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="7">no records found</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+        <a class="btn btn-info" href="{{ path('admin_therapy_new') }}">Créer une thérapie</a>
+    </div>
+    </div>
+{% endblock %}

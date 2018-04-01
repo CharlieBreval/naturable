@@ -1,0 +1,248 @@
+/*home transparent 2 header*/
+.vk-sparta-transparents-2{
+  overflow: hidden;
+  position: relative;
+  .header-default{
+    height:auto;
+  }
+  .ui.selection.dropdown{
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 46px;
+  }
+  .ui.dropdown .menu > .item{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.31;
+    text-align: center;
+    color: #7b7b7b;
+  }
+  .ui.grid > .column:not(.row){
+    //padding: 0px;
+  }
+  .ui.dropdown:not(.button) > .default.text,
+  .ui.default.dropdown:not(.button) > .text{
+    color: #fff;
+  }
+  .vk-top-header{
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+  }
+  ul{
+    margin: 0px;
+  }
+  .mobile-nav{
+    .navbar-toggle{
+      float: none;
+      position: absolute;
+      top: 70px;
+      right: 0px;
+      z-index: 12345;
+    }
+  }
+  .vk-transparent-2-logo{
+    float: left;
+  }
+  .sticky-wrapper{
+    position: absolute;
+    width: 100%;
+    &.is-sticky{
+      position: relative;
+      background: #fff;
+      z-index: 9999;
+      .vk-main-transparents-2-menu{
+        background:  #fff;
+      }
+      .main-navigation{
+        ul{
+          li{
+            a{
+              color: #7b7b7b;
+            }
+            &.vk-icon-search{
+              i{
+                color: #7b7b7b;
+              }
+              &:hover{
+                i{
+                  color: #62b043;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ui.selection.dropdown{
+        background: transparent;
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        color: #7b7b7b;
+      }
+      .ui.dropdown:not(.button) > .default.text,
+      .ui.default.dropdown:not(.button) > .text{
+        color: #7b7b7b;
+      }
+    }
+  }
+  .vk-main-transparents-2-menu{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    background: rgba(25, 25, 25, 0.15);
+    @media screen and (max-width: 991px) {
+      position: relative;
+      background: transparent;
+      z-index: inherit;
+    }
+    .wrapper-logo{
+      background: url("../images/01_05_transparents_1/box2.png");
+      width: 200px;
+      height: 100px;
+      overflow: hidden;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 27px;
+      padding-bottom: 27px;
+      @media screen and (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      @media screen and (max-width: 991px) {
+        padding-top: 30px;
+      }
+      img{
+        width: 131px;
+        height: 46px;
+        overflow: hidden;
+      }
+    }
+    .main-navigation{
+      text-align: center;
+      float: none;
+      @media screen and (max-width: 991px) {
+        display: none;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          line-height: 100px;
+          padding: 0px 10px;
+          @media screen and (max-width: 1237px) and (min-width: 992px){
+            padding: 0px 4px;
+          }
+          a{
+            font-family: "Cinzel Decorative";
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 2.14;
+            text-align: right;
+            color: #fff;
+            text-decoration: none;
+            padding: 40px 10px;
+            transition: all 0.5s;
+            @media screen and (max-width: 1399px) and (min-width: 1238px) {
+              padding: 40px 0;
+            }
+            &:hover{
+              color: #62b043;
+              transition: all 0.5s;
+            }
+          }
+          &.vk-icon-search{
+            i{
+              color: #fff;
+            }
+            &:hover{
+              i{
+                color: #62b043;
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    .vk-top-header-right{
+      position: relative;
+      z-index: 99999;
+      float: right;
+      padding: 25px 0px;
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0px;
+      }
+      @media screen and (max-width: 991px) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: none;
+      }
+      @media screen and (max-width: 1238px) and (min-width: 992px) {
+        display: none;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          font-family: 'Raleway', sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 2.31;
+          text-align: center;
+          color: #fff;
+          @media screen and (max-width: 320px) {
+            font-size: 13px;
+          }
+          @media screen and (max-width: 767px) {
+            width: 30%;
+            font-size: 10px;
+          }
+          &:first-child{
+            //width:37%;
+            background: #62b043;
+            padding: 10px 0px;
+            a{
+              color: white;
+              padding: 10px 33px;
+              transition: all 0.5s;
+            }
+            &:hover{
+              background: #333333;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .vk-transparent-2-nav-menu{
+    position: relative;
+    .show-hover-shortcodes{
+      top: inherit;
+    }
+    .box-search-header{
+      top: inherit;
+    }
+  }
+  .vk-transparents-2-booking-hotel{
+    top: 100px;
+  }
+}
+/* end home transparent 2 header*/

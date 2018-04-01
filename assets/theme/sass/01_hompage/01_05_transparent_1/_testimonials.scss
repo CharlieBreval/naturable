@@ -1,0 +1,27 @@
+/*Home transparent 1 testimonial*/
+.vk-trasparents-testimonial{
+  padding-bottom: 99px;
+  padding-top: 79px;
+  //background: url("../images/01_05_transparents_1/background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  .vk-sparta-head-title{
+    h2{
+      color: #fff !important;
+    }
+  }
+  .item{
+    .vk-sparta-testimonial-text{
+      p{
+        color: #e0e0e0;
+      }
+    }
+    .vk-sparta-testimonial-author{
+      margin-top: 36px;
+     p{
+       color: #fff;
+     }
+    }
+  }
+}
+/*End Home transparent 1 testimonial*/

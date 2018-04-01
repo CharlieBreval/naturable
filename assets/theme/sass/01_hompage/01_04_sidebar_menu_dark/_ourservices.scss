@@ -1,0 +1,28 @@
+/**/
+.vk-sparta-menu-left-light{
+  .vk-sparta-image {
+    .vk-sparta-image-item {
+      .vk-iamge-item-caption {
+        h2{
+          @media screen and (max-width: 1399px) and (min-width: 992px) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.vk-sparta-menu-left-dark{
+  .vk-sparta-image {
+    .vk-sparta-image-item {
+      .vk-iamge-item-caption {
+        h2{
+          @media screen and (max-width: 1399px) and (min-width: 992px) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

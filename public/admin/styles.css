@@ -1,0 +1,19 @@
+body{
+    font-size: 14px;
+}
+.btn{
+    font-size: 14px;
+}
+
+ul.contents li:not(:last-child) {
+    margin-bottom: 80px;
+}
+.navbar {
+    margin-bottom: 30px;
+}
+
+.jumbotron { padding-bottom: 15px; }
+.jumbotron ul.contents {
+    list-style-type: none;
+    padding-left: 0;
+}

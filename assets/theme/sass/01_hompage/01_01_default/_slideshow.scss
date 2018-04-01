@@ -1,0 +1,193 @@
+
+/*Home default element SlideShow*/
+
+.vk-item-slide{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  .slide-delay-1 {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .slide-delay-2 {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .vk-slide-caption{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+
+    h3{
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1.73;
+      letter-spacing: 7.5px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      @media screen and (max-width: 767px){
+        font-size: 11px;
+        margin-top: 0;
+      }
+    }
+    h2{
+      font-family: 'Playfair Display', serif;
+      font-size: 80px;
+      font-weight: bold;
+      text-align: center;
+      color: #ffffff;
+      @media screen and (max-width: 767px){
+        font-size: 30px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+.vk-slide{
+  position: relative;
+  .owl-stage-outer{
+    width: 100%;
+  }
+  .owl-theme .owl-nav{
+    margin-top: -5px;
+  }
+  .vk-item-slide-btn{
+    position: absolute;
+    bottom: 40px;
+    @media screen and (max-width: 991px) {
+      bottom: 25px;
+    }
+    button{
+      border: 1px solid #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      &.vk-play{
+        &:after{
+          content: '\f04c';
+          font-family: FontAwesome;
+          color: #fff;
+
+        }
+      }
+      &.vk-pause{
+        display:  none;
+        &:after{
+          content: '\f04b';
+          font-family: FontAwesome;
+          color: #fff;
+
+        }
+      }
+      &.vk-mutesound{
+        display: none;
+        &:after{
+          content: '\f026';
+          font-family: FontAwesome;
+          color: #fff;
+
+        }
+      }
+      &.vk-enablemute{
+        &:after{
+          content: '\f028';
+          font-family: FontAwesome;
+          color: #fff;
+
+        }
+      }
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+
+      }
+    }
+  }
+  .slider-video{
+    position: relative;
+    width: 100%;
+    max-height: 793px;
+    overflow: hidden;
+    #video-demo{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+#owl-slide-home{
+  .owl-nav {
+    @media screen and (max-width: 991px) {
+      visibility: hidden;
+    }
+    .owl-prev{
+      position: absolute;
+      left: 0 !important;
+      top: 50% !important;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: transparent;
+      border-radius: 50px;
+      padding: 0px;
+      z-index: 123;
+      &:after{
+        content: "\e64a";
+        display: block;
+        color: #fff !important;
+        font-family: themify;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 0.87;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.2);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+    .owl-next{
+      position: absolute;
+      right: 0 !important;
+      top: 50% !important;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: transparent;
+      border-radius: 50px;
+      padding: 0px;
+      z-index: 123;
+      &:after{
+        content: "\e649";
+        display: block;
+        color: #fff !important;
+        font-family: themify;
+        font-size: 30px;
+        padding: 9px;
+        line-height: 0.87;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.2);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+/*End Home default element SlideShow*/

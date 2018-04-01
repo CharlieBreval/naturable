@@ -1,0 +1,20 @@
+/*Home header full width booking hotel*/
+.vk-booking-hotel-header-full{
+  background: #f0f0f0;
+  margin-bottom: 60px;
+  .booking-hotel-all{
+    padding: 15px;
+  }
+  ul{
+    li{
+      margin-right: 13px;
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        margin-right: 11px;
+      }
+      &:nth-child(5){
+        margin-right: 0px;
+      }
+    }
+  }
+}
+/*End Home header full width booking hotel*/

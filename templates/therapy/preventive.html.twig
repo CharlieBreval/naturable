@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+{% block body_class %}therapie{% endblock %}
+{% block body %}
+    <div class="vk-blog-list">
+        <!--BENGIN CONTENT HEADER-->
+        <section class="site-content-area">
+            <div class="vk-gallery-grid-full-banner">
+                <div class="vk-about-banner">
+                    <div class="vk-about-banner-destop">
+                        <div class="vk-banner-img"></div>
+                        <div class="vk-about-banner-caption">
+                            <h2>Thérapies préventives</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vk-sparta-center-logo-2-welcometo">
+                <div class="vk-sparta-about">
+                    <div class="container">
+                        <div class="vk-sparta-head-title">
+                            <h2>{{ title.content }}</h2>
+                            <div class="vk-sparta-about-border"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="vk-sparta-about-text">
+                                    <p>
+                                        {{ intro.content }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vk-blog-list-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="vk-blog-list-body-left">
+                                {% for therapy in therapies %}
+                                    <div class="vk-blog-list-left-item">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <div class="vk-blog-list-left-item-img">
+                                                    <a href="{{ path('therapy_show', {'slug' : therapy.slug}) }}"> <img src="{{ asset(therapy.image) }}" alt="" class="img-responsive"></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="vk-events-lists-item-right">
+                                                    <div class="vk-events-item-right-header entry-meta">
+                                                        <div class="vk-event-item-info">
+                                                            <header class="entry-header">
+                                                                <h2 class="entry-title"><a href="{{ path('therapy_show', {'slug' : therapy.slug}) }}">{{ therapy.title }}</a></h2>
+                                                            </header>
+                                                        </div>
+                                                    </div>
+                                                    <div class="vk-events-item-text entry-summary">
+                                                        <p>
+                                                            {{ therapy.subtitle }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="vk-events-item-btn">
+                                                        <a href="{{ path('therapy_show', {'slug' : therapy.slug}) }}">En savoir plus <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END CONTENT ABOUT-->
+    </div>
+{% endblock %}

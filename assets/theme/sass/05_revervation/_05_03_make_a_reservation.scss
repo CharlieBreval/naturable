@@ -1,0 +1,359 @@
+/*Reservation make a reservation*/
+.vk-make-a-reservation{
+  .vk-gallery-grid-full-banner{
+    .vk-about-banner{
+      .vk-about-banner-destop{
+        .vk-banner-img{
+          background: url("../images/04_01_room_list/background.jpg") no-repeat !important;
+          background-size: contain;
+          background-position: center center;
+          height: 393px;
+          width: 100%;
+          @media screen and (max-width: 991px) {
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+.vk-make-a-reservation-content{
+  background: #f9f9f9;
+  padding: 100px 0;
+  .vk-select-room-breakcrumb{
+    @media screen and (max-width: 991px){
+      display: none;
+    }
+    ul{
+      li{
+        &.active {
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+        &.make-a-reservation{
+          span{
+            background: #62b043;
+            i{
+              color: #ffffff;
+            }
+          }
+          background: #62b043;
+          a {
+            background: #62b043;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .vk-make-a-reservation-info{
+    .vk-make-a-reservation-left{
+      background: #fff;
+      padding: 40px 30px;
+      h3{
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: center;
+        color: #333333;
+        margin: 0px;
+        padding-bottom: 44px;
+      }
+      form{
+        input{
+          height: 50px;
+        }
+        textarea{
+          height: 200px;
+        }
+        .form-control{
+          border-radius: 0px;
+          margin-bottom: 30px;
+          font-family: "Raleway", sans-serif;
+          &:focus{
+            border-color: rgba(176, 145, 79, 0.5);
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(176, 145, 79, 0.6);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(176, 145, 79, 0.6);
+          }
+        }
+        .btn{
+          background: none;
+          border-top: 2px solid #333333;
+          border-bottom: 2px solid #333333;
+          border-radius: 0px;
+          font-family: "Raleway", sans-serif;
+          font-size: 13px;
+          font-weight: bold;
+          line-height: 2.31;
+          text-align: center;
+          color: #333333;
+        }
+      }
+      .vk-btn-send{
+        h4{
+          border: 1px solid #62b043;
+          padding: 15px 0;
+          margin: 0px;
+          background: #62b043;
+          text-align: center;
+          a{
+            font-family: "Raleway", sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 80px;
+            transition: all 0.5s;
+            @media screen and (max-width: 368px) and (min-width: 320px) {
+              padding: 0px;
+            }
+          }
+          &:hover{
+            background: #fff;
+            a{
+              color: #62b043;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+    }
+    .vk-make-a-left-btn{
+      h4{
+        background: #333;
+        border: 1px solid #333;
+        text-align: center;
+        padding: 10px 0px;
+        &:hover{
+          background: #fff;
+          a{
+            color: #333;
+            text-decoration: none;
+            transition: all 0.5s;
+          }
+        }
+        a{
+          font-family:"Raleway", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 1.88;
+          text-align: center;
+          color: #ffffff;
+          padding: 15px 60px;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+
+
+.vk-make-a-reservation-right{
+  background: #62b043;
+  padding: 30px;
+  h3{
+    font-family: "Cinzel Decorative";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+
+  }
+  .vk-make-a-room{
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    margin-top: 19px;
+    .vk-make-a-room1{
+      h3{
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.67;
+        color: #ffffff;
+        text-align: left;
+        span{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+
+        }
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+          margin-right: 30px;
+          &:last-child{
+            margin-right: 0px;
+          }
+          @media screen and (max-width: 991px) {
+            margin-right: 20px;
+          }
+          @media screen and (min-width: 992px) and (max-width: 1199px) {
+            margin-right: 20px;
+          }
+        }
+      }
+      h4{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: right;
+        color: #fefefe;
+
+      }
+    }
+    .vk-make-a-room2{
+      h3{
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.67;
+        color: #ffffff;
+        text-align: left;
+        span{
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+
+        }
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+
+          font-family: "Raleway", sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 2.14;
+          text-align: left;
+          color: #fefefe;
+          margin-right: 30px;
+          &:last-child{
+            margin-right: 0px;
+          }
+          @media screen and (max-width: 991px) {
+            margin-right: 20px;
+          }
+          @media screen and (min-width: 992px) and (max-width: 1199px) {
+            margin-right: 20px;
+          }
+
+        }
+      }
+      h4{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: right;
+        color: #fefefe;
+
+      }
+    }
+  }
+  .vk-make-a-total{
+    padding-top: 32px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #ffffff;
+    table{
+      width: 100%;
+      th{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: left;
+        color: #ffffff;
+      }
+      td{
+        text-align: right;
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        color: #ffffff;
+      }
+    }
+  }
+  .vk-make-a-grand-total{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    table{
+      width: 100%;
+      th{
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2.14;
+        text-align: left;
+        color: #ffffff;
+      }
+      td{
+        text-align: right;
+        font-family: "Raleway", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+    }
+  }
+  .vk-make-a-btn{
+    h4{
+      background-color: #333333;
+      padding: 10px 0;
+      text-align: center;
+      border: 1px solid #333;
+      transition: all 0.5s;
+      &:hover{
+        background: #ffffff;
+        transition: all 0.5s;
+        a{
+          color: #333333;
+        }
+
+      }
+      a{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.88;
+        text-align: center;
+        color: #ffffff;
+        padding: 16px 65px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/*end Reservation make a reservation*/
