@@ -1,7 +1,12 @@
-.therapie{
-    .vk-sparta-about{
-        margin-bottom: 95px;
+.site-footer{
+    padding-top: 50px;
+    .copyright-area .copyright-content{
+        margin-top: 30px;
     }
+}
+.therapie{
+    .vk-sparta-about{margin-bottom: 50px; padding-top: 50px;}
+    .vk-blog-list-body{padding-top: 50px;}
     .vk-blog-list-body-left .vk-blog-list-left-item .vk-events-lists-item-right .vk-event-item-info{ padding-left: 0;}
 }
 
@@ -18,4 +23,17 @@
 
 .vk-restaurant-content .vk-restaurant-about .vk-restaurant-about-item p{
     line-height: 26px;
+}
+
+.about-index {
+    .vk-about-right-header{
+        padding-top: 15px;
+    }
+}
+.home{
+    .vk-sparta-about{padding-top: 50px; padding-bottom: 50px;}
+    .vk-sparta-head-title h2{ font-size: 36px;}
+}
+.vk-item-slide .vk-slide-caption h2{
+    font-size: 48px;
 }

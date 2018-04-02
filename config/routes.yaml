@@ -22,6 +22,10 @@ news_index:
     path: /actualites
     controller: App\Controller\NewsController::index
 
+conference_index:
+    path: /conferences
+    controller: App\Controller\ConferenceController::index
+
 contact:
     path: /contact
     controller: App\Controller\ContactController::index

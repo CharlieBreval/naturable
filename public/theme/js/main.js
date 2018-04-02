@@ -237,11 +237,10 @@ jQuery(document).ready(function ($) {
             navText:true,
             dots:false,
             items:1,
-            autoHeight:true,
+            autoHeight:false,
             autoWidth:false
         });
     }
-    
     // ============================ACCORDION===================================
 
     $('.vk-accordion-default .vk-accordion-toggle-default , .vk-accordion-with-bg .vk-accordion-toggle-default').on('click', function (e) {

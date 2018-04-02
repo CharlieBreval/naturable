@@ -1229,9 +1229,9 @@ a {
   border: 1px solid #62b043;
 }
 .site-footer .widget h3 {
-  font-family: "Cinzel Decorative";
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.44;
   text-align: left;
   color: #62b043;
@@ -15797,8 +15797,19 @@ a {
   line-height: 1.63;
 }
 
+.site-footer {
+  padding-top: 50px;
+}
+.site-footer .copyright-area .copyright-content {
+  margin-top: 30px;
+}
+
 .therapie .vk-sparta-about {
-  margin-bottom: 95px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.therapie .vk-blog-list-body {
+  padding-top: 50px;
 }
 .therapie .vk-blog-list-body-left .vk-blog-list-left-item .vk-events-lists-item-right .vk-event-item-info {
   padding-left: 0;
@@ -15814,6 +15825,22 @@ a {
 
 .vk-restaurant-content .vk-restaurant-about .vk-restaurant-about-item p {
   line-height: 26px;
+}
+
+.about-index .vk-about-right-header {
+  padding-top: 15px;
+}
+
+.home .vk-sparta-about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.home .vk-sparta-head-title h2 {
+  font-size: 36px;
+}
+
+.vk-item-slide .vk-slide-caption h2 {
+  font-size: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+{% extends 'base_admin.html.twig' %}
+
+{% block title %}Conference index{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Image</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for conference in conferences %}
+            <tr>
+                <td>{{ conference.id }}</td>
+                <td>{{ conference.title }}</td>
+                <td>{{ conference.image }}</td>
+                <td>
+                    <a class="btn btn-info" href="{{ path('admin_conference_edit', {'id': conference.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('admin_conference_new') }}" class="btn btn-primary">Ajouter une conférence</a>
+    </div>
+{% endblock %}

@@ -50,15 +50,15 @@ et fibroses au niveau hépatique et une dégradation du capital osseux.</p>");
         $therapy1->setCategory('preventive');
         $therapy1->setTitle('Prévention de la fatigue');
         $therapy1->setSubtitle("<p>La notion de prévention décrit l'ensemble des actions, des attitudes et comportements qui tendent à éviter la survenue de maladies ou de traumatismes ou à maintenir et à améliorer la santé.");
-        $therapy1->setImage('image1.jpg');
-        $therapy1->setBanner('image11.jpg');
+        $therapy1->setImage('image7.jpg');
+        $therapy1->setBanner('image7.jpg');
 
         $therapy2 = new Therapy();
         $therapy2->setCategory('preventive');
         $therapy2->setTitle('Prévention des hypnoses');
         $therapy2->setSubtitle("De la santé, de prévention des maladies ou d'éducation thérapeutique est déclenchée par ou des professionnels.");
-        $therapy2->setImage('image6.jpg');
-        $therapy2->setBanner('image10.jpg');
+        $therapy2->setImage('image8.jpg');
+        $therapy2->setBanner('image8.jpg');
 
         $manager->persist($therapy1);
         $manager->persist($therapy2);
