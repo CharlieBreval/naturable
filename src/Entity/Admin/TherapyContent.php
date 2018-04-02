@@ -6,6 +6,7 @@ use App\Entity\Admin\Therapy;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Table(name="naturable_therapy_content")
  * @ORM\Entity(repositoryClass="App\Repository\TherapyContentRepository")
  */
 class TherapyContent

@@ -21,7 +21,7 @@
                         <td>{{ editable.accessKey }}</td>
                         <td>{{ editable.content }}</td>
                         <td>
-                            <a href="{{ path('admin_editable_edit', {'id': editable.id}) }}" class="btn btn-info">Editer</a>
+                            <a href="{{ path('admin_editable_edit', {'id': editable.id}) }}" class="btn btn-primary">Editer</a>
                         </td>
                     </tr>
                 {% else %}
@@ -32,7 +32,7 @@
                 </tbody>
             </table>
 
-            <a href="{{ path('admin_editable_new') }}" class="btn btn-info">Créer une nouvelle clé</a>
+            <a href="{{ path('admin_editable_new') }}" class="btn btn-primary">Créer une nouvelle clé</a>
         </div>
     </div>
 {% endblock %}

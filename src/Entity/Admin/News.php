@@ -6,6 +6,7 @@ use App\Tools\Sluggifier;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Table(name="naturable_news")
  * @ORM\Entity(repositoryClass="App\Repository\NewsRepository")
  */
 class News

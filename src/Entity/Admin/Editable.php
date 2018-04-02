@@ -5,6 +5,7 @@ namespace App\Entity\Admin;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Table(name="naturable_editable")
  * @ORM\Entity(repositoryClass="App\Repository\EditableRepository")
  */
 class Editable

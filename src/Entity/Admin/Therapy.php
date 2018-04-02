@@ -7,6 +7,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ORM\Table(name="naturable_therapy")
  * @ORM\Entity(repositoryClass="App\Repository\TherapyRepository")
  */
 class Therapy

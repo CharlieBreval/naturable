@@ -23,7 +23,7 @@
                         <td>{{ news.createdAt ? news.createdAt|date('Y-m-d H:i:s') : '' }}</td>
                         <td>{{ news.image }}</td>
                         <td>
-                            <a class="btn btn-info" href="{{ path('admin_news_edit', {'id': news.id}) }}">Editer</a>
+                            <a class="btn btn-primary" href="{{ path('admin_news_edit', {'id': news.id}) }}">Editer</a>
                         </td>
                     </tr>
                 {% else %}
@@ -33,7 +33,7 @@
                 {% endfor %}
                 </tbody>
             </table>
-            <a class="btn btn-info" href="{{ path('admin_news_new') }}">Créer une actualité</a>
+            <a class="btn btn-primary" href="{{ path('admin_news_new') }}">Créer une actualité</a>
         </div>
     </div>
 

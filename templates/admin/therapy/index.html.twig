@@ -28,7 +28,7 @@
                     <td>{{ therapy.createdAt ? therapy.createdAt|date('Y-m-d H:i:s') : '' }}</td>
                     <td>{{ therapy.image }}</td>
                     <td>
-                        <a class="btn btn-info" href="{{ path('admin_therapy_edit', {'id': therapy.id}) }}">Editer</a>
+                        <a class="btn btn-primary" href="{{ path('admin_therapy_edit', {'id': therapy.id}) }}">Editer</a>
                     </td>
                 </tr>
             {% else %}
@@ -41,7 +41,7 @@
     </div>
 
     <div class="row">
-        <a class="btn btn-info" href="{{ path('admin_therapy_new') }}">Créer une thérapie</a>
+        <a class="btn btn-primary" href="{{ path('admin_therapy_new') }}">Créer une thérapie</a>
     </div>
     </div>
 {% endblock %}

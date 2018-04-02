@@ -29,3 +29,6 @@ contact:
 about:
     path: /a-propos
     controller: App\Controller\AboutController::index
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
