@@ -9,7 +9,6 @@ assets/theme/images/
 
 ###> symfony/webpack-encore-pack ###
 /node_modules/
-/public/theme/images
 .sass-cache
 tests/
 ###< symfony/webpack-encore-pack ###
