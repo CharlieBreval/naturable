@@ -5872,7 +5872,6 @@ a {
 }
 .vk-sparta-center-logo-2 .is-sticky .navbar-brand img {
   height: 80px;
-  width: 74px;
   overflow: hidden;
 }
 .vk-sparta-center-logo-2 .is-sticky .main-navigation ul li {
@@ -15825,6 +15824,10 @@ a {
 
 .vk-restaurant-content .vk-restaurant-about .vk-restaurant-about-item p {
   line-height: 26px;
+}
+
+.vk-menu-mobile-nav.mobile-menu-container .menu-mobile-nav i {
+  color: white;
 }
 
 .about-index .vk-about-right-header {
