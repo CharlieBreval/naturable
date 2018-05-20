@@ -1,2 +1,9 @@
 swiftmailer:
-    url: '%env(MAILER_URL)%'
+    transport: "smtp"
+    auth_mode: "login"
+    host:      "ns0.ovh.net"
+    encryption: null
+    port:      "587"
+    username:  "bonjour@charliebreval.com"
+    password:  "Tyranides25"
+    spool:     { type: memory }

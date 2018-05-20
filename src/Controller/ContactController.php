@@ -42,13 +42,14 @@ class ContactController extends AbstractController
             $body = '<html><body>';
             $body .= 'Message from '.$form->get('email')->getData().'<br><br>';
             $body .= nl2br($form->get('message')->getData()).'</body></html>';
-            $message = (new \Swift_Message('Contact from naturable.fr by '.$form->get('email')->getData()))
+            $message = (new \Swift_Message('Contact dev from naturable.fr by '.$form->get('email')->getData()))
                 ->setFrom('bonjour@charliebreval.com')
                 ->setTo('charliebreval@yahoo.fr')
                 ->setBody($body,'text/html')
             ;
 
             $mailStatus = $mailer->send($message);
+
 
             return $this->redirectToRoute('contact');
         }
