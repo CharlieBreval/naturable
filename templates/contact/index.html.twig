@@ -66,25 +66,25 @@
                             </div>
                             <div class="vk-contact-form-info-body">
                                 <div class="row">
-                                    <form action="action.php">
+                                    {{ form_start(form) }}
                                         <div class="form-group">
                                             <div class="col-md-4">
-                                                <input type="text" id="yourname" placeholder="Noms" class="form-control" >
+                                                {{ form_widget(form.name) }}
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-4">
-                                                <input type="email" id="youremail" placeholder="Email" class="form-control">
+                                                {{ form_widget(form.email) }}
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-4">
-                                                <input type="text" id="subject" placeholder="Sujet" class="form-control">
+                                                {{ form_widget(form.subject) }}
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                                                {{ form_widget(form.message) }}
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
@@ -94,7 +94,7 @@
                                                 <button type="submit" class="btn vk-btn-primary btn-block">ENVOYER <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                                             </div>
                                         </div>
-                                    </form>
+                                    {{ form_end(form)}}
                                 </div>
                             </div>
                         </div>

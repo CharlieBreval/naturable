@@ -30,21 +30,23 @@
 <body class="{% block body_class %}{% endblock %}">
     <div class="vk-sparta-center-logo-2">
         <nav class="visible-sm visible-xs mobile-menu-container mobile-nav vk-menu-mobile-nav">
-            <div class="menu-mobile-nav navbar-toggle">
-                <span class="icon-bar"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            <div class="menu-mobile-nav navbar-toggle" id="menu-toggler">
+                <span class="icon-bar">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
             </div>
             <div id="cssmenu" class="animated">
                 <div class="uni-icon-close">
                     <span class="ti-close"></span>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="has-sub"><a href="#">Home</a></li>
-                    <li class="has-sub"><a href="{{ path('preventive_therapy') }}">Thérapies préventives</a></li>
-                    <li class="has-sub"><a href="{{ path('complementary_therapy') }}">Thérapies complémentaires</a></li>
-                    <li class="has-sub"><a href="{{ path('conference_index') }}">Conférences</a></li>
-                    <li class="has-sub"><a href="{{ path('news_index') }}">Actualités</a></li>
-                    <li class="has-sub"><a href="{{ path('about') }}">A propos</a></li>
-                    <li class="has-sub"><a href="{{ path('contact') }}">Contact</a></li>
+                    <li><a href="{{ path('home')}}">Home</a></li>
+                    <li><a href="{{ path('preventive_therapy') }}">Thérapies préventives</a></li>
+                    <li><a href="{{ path('complementary_therapy') }}">Thérapies complémentaires</a></li>
+                    <li><a href="{{ path('conference_index') }}">Conférences</a></li>
+                    <li><a href="{{ path('news_index') }}">Actualités</a></li>
+                    <li><a href="{{ path('about') }}">A propos</a></li>
+                    <li><a href="{{ path('contact') }}">Contact</a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>

@@ -15822,12 +15822,12 @@ a {
   padding-top: 0;
 }
 
-.vk-restaurant-content .vk-restaurant-about .vk-restaurant-about-item p {
-  line-height: 26px;
+#menu-toggler {
+  top: 10px;
 }
 
-.vk-menu-mobile-nav.mobile-menu-container .menu-mobile-nav i {
-  color: white;
+.vk-restaurant-content .vk-restaurant-about .vk-restaurant-about-item p {
+  line-height: 26px;
 }
 
 .about-index .vk-about-right-header {
