@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}Naturable.fr{% endblock %}</title>
 
     {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('theme/css/bootstrap.min.css') }}">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('theme/css/bootstrap-theme.min.css') }}">
         <link rel="stylesheet" href="{{ asset('build/css/style.css') }}">
-        <link href="{{ asset('theme/fonts/raleway/raleway.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('theme/fonts/raleway/raleway.css') }}">
         <link rel="stylesheet" href="{{ asset('theme/fonts/font-awesome/css/font-awesome.css') }}">
-        <link href="{{ asset('theme/fonts/playfair-display/playfair-display.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('theme/fonts/playfair-display/playfair-display.css') }}">
         <link rel="stylesheet" href="{{ asset('theme/plugin/dist/assets/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('theme/plugin/dist/assets/owl.theme.default.min.css') }}">
         <link rel="stylesheet" href="{{ asset('theme/css/themify-icons.css') }}">
-        <link rel="stylesheet" href="{{ asset('theme/css/animate.css') }}">
+        <link rel="stylesheet" href="" f="{{ asset('theme/css/animate.css') }}">
         <link rel="stylesheet" href="{{ asset('theme/css/bootstrap-datepicker3.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('theme/css/jquery-ui.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/jquery-ui.min.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('theme/css/nice-select.css') }}">
-        <link href="{{ asset('theme/css/lightgallery.css" rel="stylesheet') }}">
-        <link href="{{ asset('theme/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('theme/css/semantic.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/lightgallery.css') }}">
+        <link rel="stylesheet" href="{{ asset('theme/css/bootstrap-datetimepicker.min.css') }}" media="screen">
+        <link rel="stylesheet" href="{{ asset('theme/css/semantic.css') }}" type="text/css">
     {% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -41,9 +42,9 @@
 {% block javascripts %}
     <!-- Latest compiled and minified JavaScript -->
     <script src="{{ asset('theme/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('theme/js/jquery1.min.js') }}"></script>
     <script src="{{ asset('theme/plugin/dist/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('theme/js/bootstrap.min.js') }}"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="{{ asset('theme/js/jquery.waypoints.js') }}"></script>
     <script src="{{ asset('theme/js/number-count/jquery.counterup.min.js') }}"></script>
     <script src="{{ asset('theme/js/isotope.pkgd.min.js') }}"></script>

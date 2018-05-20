@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 {% block body_class %}therapie-show{% endblock %}
 {% block body %}
-    <div class="vk-restaurant">
+    <div class="vk-restaurants">
 
         <!--BENGIN CONTENT HEADER-->
         <section class="site-content-area">
@@ -10,10 +10,11 @@
                     <div class="vk-gallery-grid-full-banner">
                         <div class="vk-about-banner">
                             <div class="vk-about-banner-destop">
-                                <div class="vk-banner-img" style="background:url('{{ asset(therapy.banner) }}') no-repeat !important;"></div>
+                                <div class="vk-banner-img" style="background:url('{{ asset(therapy.banner) }}') no-repeat !important;">
+                                </div><!-- vk-banner-img -->
                                 <div class="vk-about-banner-caption">
                                     <h2>{{ therapy.title }}</h2>
-                                </div>
+                                </div><!-- vk-about-banner-caption -->
                             </div>
                         </div>
                     </div>
