@@ -21,3 +21,8 @@ tests/
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+.DS_Store
+public/img/conferences/*
+public/img/news/*
+public/img/therapies/*
+web
