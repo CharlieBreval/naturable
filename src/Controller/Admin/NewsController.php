@@ -28,11 +28,32 @@ class NewsController extends Controller
      */
     public function new(Request $request): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/news';
+
         $news = new News();
         $form = $this->createForm(NewsType::class, $news);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            // Save file banner
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $news->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
+            // Save file banner
+            $imageFile = $form->get('bigImage')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $news->setBigImage($imageFile->getClientOriginalName());
+                }
+            }
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($news);
             $em->flush();
@@ -59,10 +80,31 @@ class NewsController extends Controller
      */
     public function edit(Request $request, News $news): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/news';
+
         $form = $this->createForm(NewsType::class, $news);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            // Save file banner
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $news->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
+            // Save file banner
+            $imageFile = $form->get('bigImage')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $news->setBigImage($imageFile->getClientOriginalName());
+                }
+            }
+
             $this->getDoctrine()->getManager()->flush();
 
             return $this->redirectToRoute('admin_news_edit', ['id' => $news->getId()]);

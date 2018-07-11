@@ -30,7 +30,7 @@
                                     <div class="row">
                                         <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-push-6{% endif %}">
                                             <div class="vk-resstaurant-item-img">
-                                                <img src="{{ asset(conference.image) }}" alt="" class="img-responsive">
+                                                <img src="{{ asset('img/conferences/' ~ conference.image) }}" alt="" class="img-responsive">
                                             </div>
                                         </div>
                                         <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-pull-6 {% endif %} vk-restaurant-item-info">

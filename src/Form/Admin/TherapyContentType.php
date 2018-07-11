@@ -4,6 +4,7 @@ namespace App\Form\Admin;
 
 use App\Entity\Admin\TherapyContent;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -27,7 +28,10 @@ class TherapyContentType extends AbstractType
             ->add('position', null, [
                 'label' => 'Position'
             ])
-            ->add('image')
+            ->add('image', FileType::class, [
+                'mapped' => false,
+                'required' => false
+            ])
         ;
     }
 

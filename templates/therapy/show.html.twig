@@ -10,7 +10,7 @@
                     <div class="vk-gallery-grid-full-banner">
                         <div class="vk-about-banner">
                             <div class="vk-about-banner-destop">
-                                <div class="vk-banner-img" style="background:url('{{ asset(therapy.banner) }}') no-repeat !important;">
+                                <div class="vk-banner-img" style="background:url('{{ asset('img/therapies/' ~ therapy.banner) }}') no-repeat !important;">
                                 </div><!-- vk-banner-img -->
                                 <div class="vk-about-banner-caption">
                                     <h2>{{ therapy.title }}</h2>
@@ -31,7 +31,7 @@
                                     <div class="row">
                                         <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-push-6{% endif %}">
                                             <div class="vk-resstaurant-item-img">
-                                                <img src="{{ asset(content.image) }}" alt="" class="img-responsive">
+                                                <img src="{{ asset('img/therapies/' ~ content.image) }}" alt="" class="img-responsive">
                                             </div>
                                         </div>
                                         <div class="col-md-6 {% if loop.index%2 == 0 %} col-md-pull-6 {% endif %} vk-restaurant-item-info">

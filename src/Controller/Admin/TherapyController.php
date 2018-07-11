@@ -29,12 +29,34 @@ class TherapyController extends Controller
      */
     public function new(Request $request): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/therapies';
+
         $therapy = new Therapy();
         $form = $this->createForm(TherapyType::class, $therapy);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
+
+            // Save file
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $therapy->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
+            // Save file banner
+            $imageFile = $form->get('banner')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $therapy->setBanner($imageFile->getClientOriginalName());
+                }
+            }
+
+
             $em->persist($therapy);
             $em->flush();
 
@@ -60,6 +82,8 @@ class TherapyController extends Controller
      */
     public function edit(Request $request, Therapy $therapy): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/therapies';
+
         $originalContents = new ArrayCollection();
         foreach ($therapy->getContents() as $content) {
             $originalContents->add($content);
@@ -69,11 +93,46 @@ class TherapyController extends Controller
         $form = $this->createForm(TherapyType::class, $therapy);
         $form->handleRequest($request);
 
+
         if ($form->isSubmitted() && $form->isValid()) {
             foreach ($originalContents as $content) {
                 if (false === $therapy->getContents()->contains($content)) {
                     $content->setTherapy(null);
                     $this->getDoctrine()->getManager()->persist($content);
+                }
+            }
+
+
+            // Save file image
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $therapy->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
+
+            // Save file banner
+            $imageFile = $form->get('banner')->getData();
+
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $therapy->setBanner($imageFile->getClientOriginalName());
+                }
+            }
+
+            // Save file of collection fields image
+            $contentsData = $form->get('contents');
+            foreach ($contentsData as $subForm) {
+                $imageFile = $subForm->get('image')->getData();
+                $content = $subForm->getData();
+                if (null !== $imageFile) {
+                    $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                    if ($status === true) {
+                        $content->setImage($imageFile->getClientOriginalName());
+                    }
                 }
             }
 

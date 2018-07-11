@@ -1,5 +1,25 @@
 
 {{ form_start(form) }}
-    {{ form_widget(form) }}
+    {{ form_row(form.title) }}
+    <div class="form-group row">
+        <div class="col-form-label col-sm-2 form-control-label">
+            Image actuelle
+        </div>
+        <div class="col-sm-10">
+            <img style="max-height:100px; max-width:100px;" src="{{ asset('img/news/' ~ form.vars.value.image)}}">
+        </div>
+    </div>
+    {{ form_row(form.image) }}
+
+    <div class="form-group row">
+        <div class="col-form-label col-sm-2 form-control-label">
+            Grande image actuelle
+        </div>
+        <div class="col-sm-10">
+            <img style="max-height:100px; max-width:100px;" src="{{ asset('img/news/' ~ form.vars.value.bigImage)}}">
+        </div>
+    </div>
+    {{ form_row(form.bigImage) }}
+    {{ form_row(form.text) }}
     <button class="btn btn-primary">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}

@@ -1,4 +1,14 @@
 {{ form_start(form) }}
-    {{ form_widget(form) }}
+    {{ form_row(form.title) }}
+    <div class="form-group row">
+        <div class="col-form-label col-sm-2 form-control-label">
+            Image actuelle
+        </div>
+        <div class="col-sm-10">
+            <img style="max-height:100px; max-width:100px;" src="{{ asset('img/conferences/' ~ form.vars.value.image)}}">
+        </div>
+    </div>
+    {{ form_row(form.image) }}
+    {{ form_row(form.content) }}
     <button class="btn btn-primary">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}

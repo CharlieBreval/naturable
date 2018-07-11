@@ -4,6 +4,7 @@ namespace App\Form\Admin;
 
 use App\Entity\Admin\Conference;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -15,7 +16,10 @@ class ConferenceType extends AbstractType
             ->add('title', null, [
                 'label' => 'Titre'
             ])
-            ->add('image')
+            ->add('image', FileType::class, [
+                'required' => false,
+                'mapped' => false
+            ])
             ->add('content', null, [
                 'label' => 'Contenu',
                 'attr' => [

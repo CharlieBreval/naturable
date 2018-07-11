@@ -28,11 +28,23 @@ class ConferenceController extends Controller
      */
     public function new(Request $request): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/conferences';
+
         $conference = new Conference();
         $form = $this->createForm(ConferenceType::class, $conference);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            // Save file banner
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $conference->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($conference);
             $em->flush();
@@ -59,10 +71,22 @@ class ConferenceController extends Controller
      */
     public function edit(Request $request, Conference $conference): Response
     {
+        $imgFolder = $this->get('kernel')->getRootDir() . '/../public/img/conferences';
+
         $form = $this->createForm(ConferenceType::class, $conference);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            // Save file banner
+            $imageFile = $form->get('image')->getData();
+            if (null !== $imageFile) {
+                $status = move_uploaded_file($imageFile->getpathName(), $imgFolder.'/'.$imageFile->getClientOriginalName());
+                if ($status === true) {
+                    $conference->setImage($imageFile->getClientOriginalName());
+                }
+            }
+
             $this->getDoctrine()->getManager()->flush();
 
             return $this->redirectToRoute('admin_conference_edit', ['id' => $conference->getId()]);

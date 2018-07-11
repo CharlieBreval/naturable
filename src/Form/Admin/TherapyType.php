@@ -7,6 +7,7 @@ use App\Form\Admin\TherapyContentType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -28,9 +29,14 @@ class TherapyType extends AbstractType
             ->add('subtitle', null, [
                 'label' => 'Sous-titre'
             ])
-            ->add('image')
-            ->add('banner', null, [
-                'label' => 'Bannière'
+            ->add('image', FileType::class, [
+                'required' => false,
+                'mapped' => false
+            ])
+            ->add('banner', FileType::class, [
+                'label' => 'Bannière',
+                'required' => false,
+                'mapped' => false
             ])
             ->add('contents', CollectionType::class, array(
                 'entry_type' => TherapyContentType::class,

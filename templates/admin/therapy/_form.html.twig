@@ -2,18 +2,51 @@
     {{ form_row(form.category)}}
     {{ form_row(form.title)}}
     {{ form_row(form.subtitle)}}
+
+    <div class="form-group row">
+        <div class="col-form-label col-sm-2 form-control-label">
+            Image actuelle
+        </div>
+        <div class="col-sm-10">
+            <img style="max-height:100px; max-width:100px;" src="{{ asset('img/therapies/' ~ form.vars.value.image)}}">
+        </div>
+    </div>
     {{ form_row(form.image)}}
+
+    <div class="form-group row">
+        <div class="col-form-label col-sm-2 form-control-label">
+            Bannière actuelle
+        </div>
+        <div class="col-sm-10">
+            <img style="max-height:100px; max-width:100px;" src="{{ asset('img/therapies/' ~ form.vars.value.banner)}}">
+        </div>
+    </div>
     {{ form_row(form.banner)}}
 
+    {% if therapy.id is not null %}
     <div class="jumbotron row">
-    <ul class="contents" data-prototype="{{ form_widget(form.contents.vars.prototype)|e('html_attr') }}">
+    <ul class="contents col-sm-12" data-prototype="{{ form_widget(form.contents.vars.prototype)|e('html_attr') }}">
         {% for content in form.contents %}
             <li class="content-item">
-                {{ form_row(content) }}
+
+                {{ form_row(content.title) }}
+                {{ form_row(content.topTitle) }}
+                {{ form_row(content.text) }}
+                {{ form_row(content.position) }}
+                <div class="form-group row">
+                    <div class="col-form-label col-sm-2 form-control-label">
+                        Image actuelle
+                    </div>
+                    <div class="col-sm-10">
+                        <img style="max-height:100px; max-width:100px;" src="{{ asset('img/therapies/' ~ content.vars.value.image)}}">
+                    </div>
+                </div>
+                {{ form_row(content.image) }}
             </li>
         {% endfor %}
     </ul>
     </div>
+    {% endif %}
 
     <button class="btn btn-success">{{ button_label|default('Save') }} therapy</button>
 
