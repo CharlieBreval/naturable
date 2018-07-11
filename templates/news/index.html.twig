@@ -16,7 +16,7 @@
                                             <div class="vk-blog-grid-left-item">
                                                 <div class="vk-blog-grid-left-item-img">
                                                     <a href="{{ path('news_show', {'slug' : new.slug}) }}">
-                                                        <img src="{{ asset('img/news/'  new.image) }}" alt="" class="img-responsive">
+                                                        <img src="{{ asset('img/news/' ~ new.image) }}" alt="" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="vk-blog-grid-left-item-text">
